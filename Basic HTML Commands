@@ -1,0 +1,106 @@
+<html>
+
+<head>
+
+<title>
+Basics of Html
+</title>
+
+
+
+</head>
+
+
+<body>
+
+HTML is a language used to display content in the browser
+
+<br><br>
+
+Websites which we see in our day-to-day life are aligned in a perfect manner  is because of these three languages HTML, CSS and JavaScript
+
+<br><br>
+
+The most basic step in writing a HTML program is to first define the <b>Starting</b> Tag and <b>Ending</b> Tag
+
+
+<br><br>
+
+A typical HTML program always has two parts:
+<br><br>
+<b>1) Head: </b> The purpose of head is mainly to provide information needed to display on body. in other words, It contains <i>Header Information</i><br>
+<br>and<br>
+<br><b>2) Body: </b>The purpose of body is mainly used to display content on web page.<br>
+
+<br><br>
+
+There are ways in which we can make our web page look good and to achieve this we use, <br><br> 
+<b>HTML Elements: </b> HTML Elements are nothing but the way you want to display content on the browser. Each and Every <i>Element has</i> also a <i>starting</i> and <i>ending</i> tag.
+
+<br>
+There are six types of heading tags: <b>h1,h2,h3,h4,h5,h6.</b> These tags are used to make the text look big and bold, but then what is the difference between these six tags, the main difference is that of size of the text displayed in these tags respectively, which decreases gradually in size from h1 to h6 <br><br><b>for example</b><br><br>
+
+<h1> text under <i>h1</i> would be the biggest</h1>
+<h2> text under <i>h2</i> would be smaller than h1</h2>
+<h3> Similarly text under <i>h3</i> would be smaller than h3</h3>
+<h4> and so, text under <i>h4</i> would be smaller than h3</h4>
+<h5> <i>h5</i>'s text would be smaller than h4</h5>
+<h6> and lastly, text under <i>h6</i> will be the smallest of all other heading tags</h6>
+
+
+<br><br>
+
+
+
+
+
+
+<h3 style="color:blue;"> <u>Important Note:</u> </h3>
+
+<i>These heading tags are also known as, </i><h4>Block Level Elements</h4> 
+
+<br><br>
+When we use a website we see that the <i>whole</i> information is not saved on one page instead the pages are linked on the same page and to do this, HTML provides anchor tag which links the various pages to give a type of <i>summary</i> feel to the whole information we want to know like as the example below:<br>
+
+<h1 style="color:blue;"> I am <a href="https:www.google.com"> Google</a></h1>
+<h2 style="color:red;"> Wanna check your email, click here <a href="https:www.gmail.com"> Gmail</a></h2>
+<h2 style="color:green;"> Here is my play store, you can enjoy the various apps that i have, check it out <a href="https:play.google.com/store?hl=en"> Google Play Store</a></h2>
+
+<br> <br>
+
+To write the mathematical and chemical formulas in their correct form we have , <i>sub</i> and <i>super</i> tags
+<br><b>for example</b>
+
+<br><br>
+
+<b>Formula for <i>Silver Selenate: </i></b>
+Ag<sub>2</sub>SeO<sub>4</sub>
+
+
+<br><br>
+
+<b>Square of 2:</b>
+2<sup>2</sup>=4
+
+<br><br><br>
+
+<h2>Hence, this concludes our session for basic information of HTML</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

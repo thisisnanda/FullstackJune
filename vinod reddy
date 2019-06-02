@@ -1,0 +1,16 @@
+<html>
+<head>
+<titile>This is mt first html project</title>
+</head>
+<body>
+<a href="https://www.google.com">GOOGLE</a>
+<h1>First example</h1>
+<h2>Second example</h2>
+<h3>Third example</h3>
+<h4>Fourth example</h4>
+<h5>Fifth example></h5>
+<h5>Sixth example</h6>
+
+<p style="color:blue">Sky is blue</p>
+</body>
+</html>

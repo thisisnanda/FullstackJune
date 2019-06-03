@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>exercice3 </title>
+</head>
+<body>
+<!--iframe-->
+  <iframe src="www.elphantom.com" title="this is my website">your browser does not support iframe</iframe>
+<!--iframeEnd-->
+
+<!--Table-->
+  <table border='2' align='center' width='50%'>
+    <thead>
+      <tr>
+        <th colspan=3> Mydata </th>
+      </tr>
+      <tr>
+        <th> Name </th>
+        <th> Age </th>
+        <th> course </th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td> Rishu kumar </td>
+        <td> 20 </td>
+        <td> full stack </td>
+      </tr>
+    </tbody>
+   </table>
+<!--TableEnds-->
+</body>
+</html>

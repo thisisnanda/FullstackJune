@@ -1,0 +1,229 @@
+<html>
+
+<head>
+<title>
+	INPUT ELEMENTS
+</title>
+</head>
+
+
+<body>
+
+	<center><h1>REGISTRATION FORM</h1></center>
+<form target="_blank" action="https://media0.giphy.com/media/fQxSPEme0k5PyEc3tp/giphy.gif?cid=790b76115cf6b30d6569642e492e1240&rid=giphy.gif"  method="get">
+
+
+
+<table>
+
+
+	<tr>
+<td align="right">
+	<b>First Name:</b>
+</td>
+
+	<td align="left">
+	<input type="text" name="firstname" value="tushar">
+</td>
+</tr>
+
+
+
+
+
+
+	<br>
+
+
+
+	<tr>
+<td align="right">
+	<b>Last Name:</b> 
+</td> 
+
+<td align="left">
+	<input type="text" name="lastname" value="kambale">
+</td>
+</tr>
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+	<td align="right">
+		<b>Email Address: </b> 
+	</td>
+<td align="left">
+	<input type="email" name="email" value="itskambletushar@gmail.com">
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+<tr>
+<td align="right"><b>Phone No.: </b> 
+</td>
+<td align="left">	
+<input type="tel" name="phoneno.">
+</td>
+</tr>
+
+
+
+<br>
+
+
+<tr>
+<td align="right"><b>Address: </b>
+</td>
+<td align="left">
+	<textarea></textarea>
+</td>
+</tr>
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+<tr>
+<td align="right"><b>COUNTRY: </b>
+</td>
+<td align="left"><select name="Country">
+<option value="India">India</option>
+<option value="US">US</option>
+</select>
+</td>
+</tr>
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+<tr>
+<td align="right"><b>Gender:</b>
+</td>
+<td align="left"><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+</td>
+</tr>
+
+
+
+
+<br><br>
+
+
+
+<tr>
+<td align="right"><b>Hobbies:</b></td>
+<br>
+<td align="left"><input type="checkbox"  name="Hobbies" value="Cycling">Cycling
+<br>
+<input type="checkbox" name="Hobbies" value="Travelling">Travelling
+<br>
+<input type="checkbox" name="Hobbies" value="Swimming">Swimming
+<br>
+<input type="checkbox" name="Hobbies" value="Collecting Stamps">CollectingStamps
+<br>
+<input type="checkbox" name="Hobbies" value="Coding">Coding
+<br>
+<input type="checkbox" name="Hobbies" value="Listening to Music">Listening to Music</td>
+</tr>
+
+
+
+
+</table>
+
+
+
+
+
+
+<br> 
+<br>
+
+<b>Select a file: <b><input type="file" name="photo">
+
+<br><br>
+
+<input type="submit" value="submit">
+<input type="button" value="click click">
+<input type="reset">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

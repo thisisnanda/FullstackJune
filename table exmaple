@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Table</title>
+</head>
+<body>
+	<table border="1" width="50%">
+	<thead>
+		
+		<tr>
+			<th>Name</th>
+		<th>reg.no</th>
+		<th>salary</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr>
+			
+			<td colspan="3" style="color: green;background-color:yellow ">good</td>
+			<td rowspan="8" style="background-color: blue">morning</td>
+		</tr>
+		<tr>
+			<td>vinod reddy</td>
+			<td>11603411</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td>sai</td>
+			<td>116038214</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>harish</td>
+			<td>11897867</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>sai</td>
+			<td>116038214</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>sai</td>
+			<td>116038214</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>sai</td>
+			<td>116038214</td>
+			<td>2000</td>
+		</tr>
+</tbody>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!-- assognment 4th june -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration form</title>
+</head>
+<body>
+	<form action="div and span.html" method="get" enctype="form/multidata">
+<table border="1" width="50%">
+	<thead>
+		<tr>
+		<th colspan="2">registration form</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="2" align="center">Create a registraion form</td>
+		</tr>
+		<tr>
+			<td align="center">name</td>
+			<td align="center"><input type="text" name="text"></td>
+		</tr>
+	<tr>
+		<td align="center">email</td>
+			<td align="center"><input type="text" name="text"></td>
+	</tr>
+		<tr>
+			<td align="center">phone number</td>
+			<td align="center"><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td align="center">address</td>
+			<td align="center"><textarea name="address" rows="2" cols="30"> </textarea></td>
+
+		</tr>
+		<tr>
+			<td align="center">college</td>
+			<td align="center"><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td align="center">Hobbies</td>
+			<td align="center"><input type="checkbox" name="hobbies" value="cricket">cricket
+		<input type="checkbox" name="hobbies" value="foorball">football
+		<input type="checkbox" name="hobbies" value="tennis">tennis
+		<input type="checkbox" name="hobbies" value="volleyball">volleyball</td>
+		</tr>
+		<tr>
+			<td align="center">Nationality</td>
+			<td align="center"><select name="country">
+			<option value="india">india</option>
+					
+			<option value="us">us</option>
+			<option value="china">china</option>
+			<option value="africa">africa</option>
+			<option value="japan">japan</option>
+		</select> </td>
+		</tr>
+		<tr>
+			<td align="center">photo</td>
+			<td align="center"><input type="file" name="photo"></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+		
+		<td align="left"><input type="reset" name="reset" value="reset the form"></td>
+			<td align="center"><input type="submit" name="submit" value="submit the form"></td>
+	</tr>
+	</tfoot>
+</table>
+</form>
+
+</body>
+</html>

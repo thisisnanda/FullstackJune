@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS in Registration Form </title>
+	<meta charset="utf-8">
+	<meta name="author" content="Aashish">
+	<meta name="description" content="This is CSS to Registration Form ">
+	<meta name="keyword" content="HTML, CSS">
+	<!-- <meta http-equiv="refresh" content="3600"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.headerstyle {
+			            font-size: 40px;
+			            color: green;
+		              }
+
+		.contentstyle {
+			           	font-size: 30px;
+			           	color: aqua  !important	;				  }  
+
+        #firstid { font-size: 20px;
+                   color: deeppink;
+                      }	
+
+        #secondid {
+        	        font-size: 40px;
+        	        color: indigo;
+                  }  
+
+        #thirdid {
+        	  color: brown;
+        }  
+
+        #fourthid {
+        	color: orchid;
+        }        
+
+        #fifthid {
+        	background-color: red;
+        }
+          div{
+          	background-color: tomato;
+          	font-size: 30px;
+           }            				             
+	</style>
+</head>
+<body>
+	<form action="RowColspan.html" method="get" enctype="form/multidata" novalidate="true">
+	<table border="2" align="center"> 
+			<tr>
+				<td align="center" colspan="4"> <h1 style="color: blue; background-color: yellow; " > <center> Registration Form </center>  </h1> </td>
+			</tr>
+	   
+		<tr>
+			<td class="headerstyle"> First Name : </td>
+		    <td> <input type="text" name="first_name" required="" autocomplete="off" autofocus="" id="firstid"> </td> 
+		    <td class="headerstyle"> Last Name : </td> 
+			<td> <input type="text" name="last_name" value="YADAV" required="" autocomplete="off" disabled="" id="fifthid"> </td>
+		</tr>
+			
+			<!-- <tr>
+                <td> Last Name : </td> 
+				<td> <input type="text" name="last_name"> </td>
+			</tr> -->
+			<tr>
+				    <td class="headerstyle" > Email : </td> 
+					<td> <input type="email" name="username" autocomplete="off" required=""> </td>
+					<td class="headerstyle"> Password : </td>
+			        <td> <input type="password" name="password" required=""> </td>
+
+			</tr>
+			<!-- <tr>
+			<td> Password : </td>
+			<td>
+				<input type="password" name="password" required="" >
+			</td>
+		</tr> -->
+		<tr>
+				<td class="contentstyle"> Telephone No. : </td> 
+				<td> <input type="tel" name="Telephone No." autocomplete="off"> </td>
+				<td class="contentstyle"> Number : </td>
+			<td>
+				<input type="number" name="Number" min="1" max="500">
+			</td>
+			</tr>
+		<!-- <tr>
+			<td> Number : </td>
+			<td>
+				<input type="number" name="Number" min="1" max="500">
+			</td>
+		</tr> -->
+		<tr>
+			<td class="contentstyle" id="fourthid"> Date : </td>
+			<td>
+				<input type="date" name="dob">
+			</td>
+			<td class="contentstyle"> Color : </td>
+			<td>
+				<input type="color" name="color">
+
+			</td>
+		</tr>
+		<!-- <tr>
+			<td> Color : </td>
+			<td>
+				<input type="color" name="color">
+
+			</td>
+
+		</tr> -->
+		<tr>
+			<td id="firstid"> Time : </td>
+			<td>
+				<input type="time" name="Timing">
+			</td>
+			<td id="firstid"> Range : </td>
+			<td>
+				<input type="range" name="range" min="1" max="100" step="5">
+			</td>
+		</tr>
+		<!-- <tr>
+			<td> Range : </td>
+			<td>
+				<input type="range" name="range" min="1" max="100" step="5">
+			</td>
+		</tr> -->
+		<tr>
+			<td id="firstid"> URL : </td>
+			<td>
+				<input type="url" name="url">
+			</td>
+			<td id="firstid"> Week : </td> 
+			<td>
+				<input type="week" name="week">
+			</td>
+		</tr>
+
+	<!--	<tr>
+			<td> Week : </td>
+			<td>
+				<input type="week" name="week">
+			</td>
+		</tr> -->
+
+	    <tr>
+	    	<td id="secondid">
+	    		Address : </td>
+	    		<td>
+	    		         <textarea name="Address" rows="3" > </textarea>
+	    	</td>
+	    		<td id="secondid">
+	    		Hobby : </td>
+
+	    		   <td id="fourthid">  <input type="checkbox" name="Hobby1" value="Cricket"> Cricket 
+	    		        <input type="checkbox" name="Hobby2" value="Music"> Music 
+	    		        <input type="checkbox" name="Hobby3" value="Cooking"> Cooking
+	    		        <input type="checkbox" name="Hobby4" value="Writing"> Writing 
+	    		        <input type="checkbox" name="Hobby5" value="Reading"> Reading 
+	    		        <input type="checkbox" name="Hobby6" value="Dancing"> Dancing 
+	    		        <input type="checkbox" name="Hobby7" value="Painting"> Painting 
+	    	</td>
+	    </tr>
+	   <!-- <tr>
+	    	<td>
+	    		Hobby : </td>
+
+	    		   <td> <input type="checkbox" name="Hobby1" value="Cricket"> Cricket 
+	    		        <input type="checkbox" name="Hobby2" value="Music"> Music 
+	    		        <input type="checkbox" name="Hobby3" value="Cooking"> Cooking
+	    		        <input type="checkbox" name="Hobby4" value="Writing"> Writing <br>
+	    		        <input type="checkbox" name="Hobby5" value="Reading"> Reading 
+	    		        <input type="checkbox" name="Hobby6" value="Dancing"> Dancing 
+	    		        <input type="checkbox" name="Hobby7" value="Painting"> Painting 
+	    	</td>
+	    </tr> -->
+
+	    <tr>
+	    	<td id="secondid">
+	    		Country :  </td>
+	    		      <td  >
+	    		        <select name="Country" multiple id="thirdid" >
+	    		     	<option value=" India "> INDIA </option>
+	    		     	<option value=" USA "> United States of America </option>
+	    		     	<option value=" UK "> United Kindom </option>
+	    		     	<option value=" China "> China </option>
+	    		     	<option value=" Denmark "> Denmark </option>
+	    		     	<option value=" Australia "> Australia </option>
+	    		     	<option value=" Canada "> Canada </option>
+	    		     	<option value=" France "> France </option>
+	    		     	<option value=" Germany "> Germany </option>
+	    		     	<option value=" Japan "> Japan </option>
+	    		     	<option value=" South Korea "> South Korea </option>
+	    		     	<option value=" Russia "> Russia </option>
+	    		     </select> 
+	    	</td>
+	    	<td id="secondid">
+	    		Gender :  </td>
+	    			<td id="fourthid"> 
+	    				<input type="radio" name="Gender" value="Male"> Male
+	    		        <input type="radio" name="Gender" value="Female"> Female
+	    		        <input type="radio" name="Gender" value="Others"> Others
+
+	    	</td>
+	    </tr>
+
+	   <!-- <tr>
+	    	<td>
+	    		Gender :  </td>
+	    			<td> 
+	    				<input type="radio" name="Gender" value="Male"> Male
+	    		        <input type="radio" name="Gender" value="Female"> Female
+	    		        <input type="radio" name="Gender" value="Others"> Others
+
+	    	</td>
+	    </tr> -->
+	    <tr>
+	     	 <td> <div> Upload Photo : </div> </td> 
+             
+            <td> <input type="file" name="Photo">
+	    	</td>
+	    	<td> <div> Hidden Mail : </div> </td>
+	    	<td> <input type="hidden" name="email" value="shinichiy@gmail.com"></td>
+	    </tr>
+        <tr>
+        	<td align="center" colspan="4">
+        		
+        		<input type="Reset" name="Reset" value="Reset" class="headerstyle"> 
+        	    <input type="Submit" name="Submit" value="Submit" class="contentstyle"> 
+        	</td>
+        </tr>
+
+
+	</table>
+	</form>
+     <!-- <video width="300" height="300" controls="on" loop="off" poster=""> 
+      	 <source src="D:\AASHISH\Video\Kimi no Na wa (Your Name).mp4" type="video/mp4"> 
+         <source src="VIDEO1.mp4" type="video/mp4">
+      	 
+      </video>	
+
+      <audio width="100" heigh="100" controls="on" loop="off">
+
+        <source src="D:\AASHISH\Music\ZAYN - Dusk Till Dawn (feat. Sia) - (www.SongsLover.club).mp3" type="audio/mp3"> 
+      	<source src="D:\AASHISH\Music\Hurts - Better Than Love.mp3" type="audio/mp3">
+      	<source src="D:\AASHISH\Music\Avril_Lavigne_Wish_You_Were_Here.mp3" type="audio/mp3">
+      	<source src="D:\AASHISH\Music\DAFT PUNK - Instant-Crush_(webmusic.in) (1).mp3" type="audio/mp3">
+      	<source src="D:\AASHISH\Music\01. Luis Fonsi, Daddy Yankee - Despacito - (www.SongsLover.club).mp3" type="audio/mp3"> 
+        <source src="BillieJean.mp3" type="audio/mp3">
+      </audio>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/jhpGJb7KPuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</body>
+</html>

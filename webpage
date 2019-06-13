@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		table{
+			padding: 10px;
+			text-decoration: inherit;
+		}
+	</style
+</head>
+<body bgcolor="#F1F3F6">
+	<table border="0" width="100%" bgcolor="#2874F0">
+		<tr>
+		<td><img src="img/"</td>
+		<td style="padding-left=20px"><input type="text" placeholder="search"></td>
+		<th><font color=white>Login & Singup</font></th>
+		<th><font color=white>More</font></th>
+		<th><font color=white>Cart</font></th>
+		</tr>
+		
+	</table>
+	<table border="0" width="100%" bgcolor="white">
+	<tr>
+		<th width="12.5%">Eloctronic</th>
+		<th width="12.5%">TV & Application</th>
+		<th width="12.5%">Men</th>
+		<th width="12.5%">Women</th>
+		<th width="12.5%">Kids</th>
+		<th width="12.5%">Baby</th>
+		
+	</tr>
+	
+	</table>
+	<img src="img/daily_offers_banner_Final.jpg" alt="" width="100%" height="300">
+	<br>
+	<br>
+	<table border="0" width="100%" bgcolor="white">
+	<tr>
+	<th colspan="4"><h2>Samsung Mobile</h2></th>
+	</tr>
+	<tr>
+		<th><img src="img/sam1.jpeg" alt="" width=""></th>
+		<th><img src="img/sam1.jpeg" alt="" width=""></th>
+		<th><img src="img/sam1.jpeg" alt="" width=""></th>
+		<th><img src="img/sam1.jpeg" alt="" width=""></th>
+	</tr>
+	
+	</table>
+	<br>
+	<br>
+	<table border="0" width="100%" bgcolor="white">
+	<tr>
+	<th colspan="4"><h2>Earphone</h2></th>
+	</tr>
+	<tr>
+		<th><img src="img/ear1.jpeg" alt="" height="250px"></th>
+		<th><img src="img/ear2.jpeg" alt="" height="250"></th>
+		<th><img src="img/ear3.jpeg" alt="" height="250"></th>
+		<th><img src="img/ear4.jpeg" alt="" height="250"></th>
+	</tr>
+	
+	</table>
+	
+	
+
+</body>
+</html>

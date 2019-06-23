@@ -1,0 +1,978 @@
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>	
+  <style>
+  			body{
+				margin:0px;
+				background-color: #f7f7f7;
+				font-family: 'Roboto', sans-serif;
+			}
+			.s001{
+			background-color: #c7003d;
+			overflow: auto;
+			color: #ffffff;
+			font-size: 12px;
+			height: 30.2px;
+			min-width: 1259px;
+		}
+		.s002
+		{
+			padding: 3px 6px;
+			line-height: 22px;
+			border-radius: 2px;
+		}
+		.s003
+		{
+			float: left;
+		}
+		.s004{
+			padding: 4px 0px;
+			float: right;
+		}
+		.s005{
+			clear: both;
+			position: sticky;
+			top: 0px;
+			height: 65px;
+    		padding: 0 0 20px 0;
+    		overflow: visible;
+    		margin: 0 auto;
+    		background: #e40046;
+    		z-index: 80;
+    		min-width: 1259px;
+		}
+		.s006{
+			margin-top: 19px;
+			width: 200px;
+		}
+		.s007
+		{
+			color: black;
+			margin:0px;
+			width: 78%;
+			border: 0px;
+			background: rgb(244,244,244);
+			font-size: 14px;
+			height: 37px;
+			padding: 0px 10px 0px 32px;
+			text-overflow: ellipsis;
+			border-radius: 2px 0px 0px 2px;
+			font-family: "font-regular";
+		}
+		.s007:focus{
+			outline: 0px;
+		}
+		.s008
+		{
+			margin-top: 0px;
+			padding-top: 13.5px;
+			padding-left: 15px;
+			padding-right: 8px;
+			width: 55.333%
+		}
+		.s009{
+			background-color: #333;
+			height: 37px;
+			border-radius: 0px 3px 3px 0px;
+			font-size: 14px;
+			line-height: 25px;
+			padding: 1px 8px;
+			width: 100px;
+		}
+		.s100{
+			float: right; 
+			min-width: none;
+			color: #ffffff;
+			font-size: 12px;
+		}
+		.s110{
+			display: inline-block;
+			height: 65px;
+			width: 96px;
+			border-left: 1px solid rgba(0,0,0,0.07);
+			padding-top: 15px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+			.footer
+			{
+				font-size: 12px;
+				color: #777;
+				margin-top: 15px;
+				line-height: 20px;
+			}
+			.footerp{
+				margin-top: 30px;
+				font-size: 18px;
+				color: #344c55;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			.footerinner{
+				font-size: 11.4px;
+				color: #666666;
+				padding-top:14px;
+				padding-bottom:10px; 
+				border: solid 1px #eeeeee;
+				padding-top: 14px;
+				height:47px;
+				line-height: 20px;
+				box-sizing:border-box;
+				margin:0px;
+			}
+			@media screen and (min-width: 760px){
+			.footer,.footerp,#general,.apply{
+				margin-left:6%;
+			}}
+			@media screen and (min-width: 760px){
+			.footer,.footerp,#general,.apply1{
+				margin-right:6%;
+			}}
+			@media screen and (max-width: 1024px){
+			.footer,.footerp,#general,.apply{
+				margin-left:20px;
+			}}
+			@media screen and (max-width: 1024px){
+			.footer,.footerp,#general,.apply1{
+				margin-right:20px;
+			}}
+			.footerp, .footer,#general{
+				max-width: 1600px;
+				min-width: 760px;
+			} 
+			.lfloat{
+				float: left;
+			}
+			.lfloat{
+				float: right;
+			}
+			.s10{
+				padding:30px 0px;
+				width: 100%;
+				min-width:1024px;
+			}
+			ul{
+				padding:0px;
+				margin: 0px;
+				
+			}
+			li{
+				display: inline-block;
+				list-style: none;
+			}
+			li:hover{
+				text-decoration: underline;
+			}
+			.s11{
+				padding:25px 0px;
+				border-top: 1px solid #e2e2e2;
+				border-bottom: 1px solid #e2e2e2;
+				background-color: #ffffff;
+				box-sizing: border-box;
+				line-height: 20px;
+				clear: left;
+				overflow: auto;
+				min-width: 1024px;
+			}
+			.s12
+			{
+				text-transform: uppercase;
+				font-size: 14px;
+				color: #344c55;
+				text-align: left;
+				width: 31.67%;
+				padding-left: 8px;
+				padding-right: 8px;
+				display:inline-block;
+				box-sizing: border-box;
+				float: left;
+			}
+			.s13{
+				margin: 0px;
+				padding:50px 0px;
+				min-width: 1024px !important;
+				line-height: 20px;
+				background-color: #ffffff;
+				box-sizing: border-box;
+				overflow: auto;
+			}
+			.s14{
+				padding-left: 8px;
+				padding-right: 8px;
+				float: left;
+			}
+			.s15{
+				text-transform: uppercase;
+				color: #344c55;
+				padding-bottom: 15px;
+				font-weight: bold;
+				font-size: 14px;
+				box-sizing: border-box;
+			}
+			.s16{
+				font-size: 12px;
+				max-width: 216px;
+				color: #777;
+				box-sizing: border-box;
+			}
+			ul.s16 li{
+				display: block;
+			}
+			.txt{
+				border: 0px;
+				margin: 0px;
+				background-color: #ffffff;
+			}
+			.s17{
+				font-size: 13px;
+				color: #999;
+				border-radius: 2.9px 0px 0px 2.9px;
+				background-color: #f7f8fa;
+				height: 37.5px;
+				padding: 1px 8px;
+				width: 62.5%
+			}
+			button{
+				padding:0px;
+				margin: 0px;
+				color: #fffffF;
+				background-color: #000000;
+				border: 0px;
+			}
+			button:focus{
+				outline: 0px;
+			}
+			.txt:focus{
+				outline: 0px;
+			}
+			.s18{
+				border-radius: 0px 3px 3px 0px;
+				font-size: 10px;
+				line-height: 13px;
+				text-transform: uppercase;
+				height: 37.5px;
+				position: relative;
+				bottom: 1px;
+				right: 4px;
+			}
+			.h:hover{
+				text-decoration: underline;
+				text-decoration-color: #25a8ed;
+			}
+			.s19{
+				height: 180px;
+				text-align: center;
+				width: 24.5%;
+				border-left: 1px solid #e2e2e2; 
+				border-right: 1px solid #e2e2e2;
+				float: left;
+			}
+			.mxw{
+				height: 180px;
+				max-width: none !important;
+				box-sizing: border-box;
+			}
+			.fon{
+				font-size: 18 !important;
+			}
+			ul.mxw li{
+				text-decoration: none;
+			}
+			.s20{
+				background-image: url("https://i3.sdlcdn.com/img/appScreenshot@1x.png");
+				height: 462px;
+				width: 430px;
+				display: inline-block;
+				margin-right: 50px;
+				margin-left: 80px;
+				float: left;
+			}
+			.s21{
+				margin: 0px 30px 50px 30px;
+				background: white url("https://i3.sdlcdn.com/img/leaves1x.png");
+				background-repeat: no-repeat;
+				background-position: right top;
+				box-sizing: border-box;
+				overflow: auto;
+				min-width: 1164px;
+
+			}
+			.s22{
+				font-size: 40px;
+				color: #222222;
+				line-height: 1.3;
+				font-weight: bold;
+				display: inline-block;
+				margin-bottom: 20px;
+			}
+			.s23
+			{
+				float: left;
+				width: 400px;
+				margin:100px 5px 0px 80px;
+				box-sizing: border-box;
+			}
+			.s24
+			{
+				font-size: 17.6px;
+				font-weight: normal;
+				color: #777777;
+				line-height: 1.84;
+			}
+			.s25{
+				background: url("https://i3.sdlcdn.com/img/newHomePageIcons@1x.png");
+				width: 180px;
+				height: 40px;
+				background-position: 0px -153px;
+				display: inline-block;
+			}
+			.s26{
+				width: 220px;
+				height: 360px;
+				margin-bottom: 50px;
+				border:0px;
+				border-radius: 0;
+				margin-bottom: 0px;
+				float: left;
+			}
+			.s26:hover{
+				z-index:1;
+				border-radius: 3px;
+				border: solid 1.9px #f3f3f3;
+				box-shadow: 0px 7px 17px 0px rgba(23,84,116,0.18);
+			}
+			.s27
+			{
+				color: #999;
+				font-size: 13px;
+				line-height: 18px;
+				width: 180px;
+				height: 36px;
+				overflow: hidden;
+			}
+			.s28
+			{
+				color: red;
+				font-size: 13px;
+				margin-bottom: 0px;
+				font-family: 'Mali', cursive;
+			}
+			.s29
+			{
+				clear: both;
+				overflow: auto;
+				overflow-y: hidden;
+				margin:30px 40px;
+				padding: 30px 140px 30px 140px;
+				background-color: white;
+				min-width: 1164;
+			}
+			.s30{
+				text-align: center;
+				margin:30px 0px 50px;
+				font-size: 18px;
+			}
+			.s31{
+				height: 35px; 
+				width: 35px !important; 
+				background-color: gray;
+				z-index: 1;
+				border-radius: 50%;
+				border: solid 0.5px #e5e5e5;
+				box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+			}
+			.s32{
+				display: inline-block;
+				border: 1px solid #e3e3e3;
+				border-radius: 5px;
+				box-sizing: border-box;
+				width: 100%;
+				text-align: center;
+			}
+			.s33{
+				width: 20%;
+				float: left;
+				background-color: #ffffff;
+				border-radius: 5px;
+				border: solid 1.9px #f3f3f3;
+				box-shadow: 0px 4px 17px 0px rgba(23,84,116,0.18);
+				padding: 20px 0px 20px 50px;
+				box-sizing: border-box;
+
+			}
+			div.s33 ul li{
+				display: block;
+				text-decoration: none;
+				font-size: 11px;
+				font-family:'Roboto', sans-serif;
+				color: rgb(102,102,102); 
+				display: block;
+				box-sizing: border-box;
+			}
+			div.s33 ul li:first-child{
+				font-size: 12px;
+				font-family: sans-serif;
+				font-weight: bold;
+			}
+			div.s33 ul li:hover{
+				border:1px solid #e5e5e5;
+				border-right: 0px;
+				border-left: 4px solid red;
+				padding-left: 4px;
+				box-sizing: border-box;
+				font-size: 12px;
+			}
+			.s34{
+				height:420px;
+				width: 248px;
+			}</style>
+</head>
+<body>
+<div class="s001">
+		<span class=" s002 s003 apply">India's Fastest Online Shopping Destination</span>
+		<span class="s004 apply1">
+			<span class="s002">Gift Cards </span>
+			<span class="s002">Donate Stationery Kits</span>
+			<span class="s002">Help Center</span>
+			<span class="s002">Sell On Snapdeal</span>
+			<span class="s002">Download App</span>
+		</span>
+	</div>
+	<div class="s005">
+		<div class="s006 s003 apply">
+		<img src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg" /></div>
+		<div class="s003 s008">
+		<input class="s003 s007" type="text" name="textbox" placeholder="Search products and brands" />
+		<button class="s009">
+			<i class="material-icons" style="font-size: 21px; float: left; position: relative; top:3px;">search</i>Search</button>
+		</div>
+		<div class="apply1 s100">
+		<div class="s110">Cart<i class="material-icons" style="margin-left: 15px; position: relative;top: 8px;">add_shopping_cart</i></div>
+		<div class="s110">Sign In<i class="material-icons" style="margin-left: 15px;position: relative;top: 8px;">account_circle</i></div>
+		</div>
+
+	</div>
+<div id="general" style="margin-top: 30px; margin-bottom:30px;clear: both ; overflow: auto; padding-bottom: 20px;overflow-x: hidden;min-width: 1095px;">
+<div class="s33">
+	<ul style="line-height: 39px;">
+		<li>TOP CATEGORIES</li>
+<li>All Offers</li>
+<li>Mobile & Tablets</li>
+<li>Electronics</li>
+<li>Computers & Gaming</li>
+</ul><ul style="line-height: 29px; margin-top: 20px;">
+	<li>Home & Kitchen</li>
+<li>MORE CATEGORIES</li>
+<li>Men's Fashion</li>
+<li>Women's Fashion</li>
+<li>Toys, Kids' Fashion & more</li>
+<li>Beauty, Health & Daily Needs</li>
+<li>Sports, Fitness & Outdoor</li>
+<li>Car & Motorbike</li>
+<li>Global Bazaar</li>
+<li>Books, Media & Music</li>
+<li>See All Categories</li>
+</ul><ul style="line-height: 29px; margin-top: 20px;">
+<li>TRENDING SEARCHES</li>
+<li>Boy Watch</li>
+<li>Indulekha Oil</li>
+<li>Nike Flip Flop</li>
+<li>Suit</li>
+<li>Handbags</li></ul>
+</div>
+<section style="width: 75%; float:right; padding: 5px;">
+<div class="s32">
+<div id="demo1" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+    <li data-target="#demo1" data-slide-to="1"></li>
+    <li data-target="#demo1" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="https://n2.sdlcdn.com/imgs/i/h/5/WFEOSSWeb-ecaf5.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="https://n3.sdlcdn.com/imgs/i/h/v/minisoWeb-31e56.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="https://n1.sdlcdn.com/imgs/29559/959570/679003266/679003266_1140X282_v1.jpeg"> 
+    </div>
+  </div>
+  <a class="carousel-control-prev s31" href="#demo1" data-slide="next" style="position: absolute; top: 100px; left: 20px;">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next s31" href="#demo1" data-slide="prev" style="position: absolute; top: 100px; right: 20px;">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<h2 style="margin: 20px 5px; font-size: 18px;">HANDPICKED DEALS</h2>
+<div style="min-width: 1000px;" >
+
+
+
+
+
+
+
+<div id="demo2" class="carousel slide" data-ride="carousel" data-interval="false">
+  <ul class="carousel-indicators" style="display: none;">
+    <li data-target="#demo2" data-slide-to="0" class="active"></li>
+    <li data-target="#demo2" data-slide-to="1"></li>
+    <li data-target="#demo2" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="card s26 s34">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/i/h/e/large/Myfizi-Pubg-Game-Gamepad-Controller-SDL484509093-1-60441.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Myfizi Pubg Game Gamepad Controller For Android </p>
+			<p class="s28">RS 295 /-</p></p>
+	</div></div>
+	<div class="card s26 s34">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/b/t/i/large/Bushnell-16x52-Powerful-Prism-Binocular-SDL785183275-1-54f18.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Bushnell 16x52 Powerful Prism Binocular Monocular Telescope Outdoor</p>
+			<p class="s28">RS 856 /-</p></p>
+	</div></div>
+	<div class="card s26 s34">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/h/i/v/large/Quick-Heal-Total-Security-Latest-SDL983925058-1-fc8d9.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Quick Heal Total Security Antivirus Latest Version ( 1 PC / 1 Year )</p>
+			<p class="s28">RS 1169 /-</p></p>
+	</div></div>
+	<div class="card s26 s34">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/h/s/f/large/Die-Hard-TN-Flexible-Neck-SDL832566195-1-478a6.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Die Hard(TN), Flexible Neck Lazy Mobile Phone Holder Stand  </p>
+			<p class="s28">RS 210 /-</p></p>
+	</div></div>
+</div>
+ <div class="carousel-item">
+	<div class="card s26 s34">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/h/8/5/large/OFF-LIMITS-Hulk-Maroon-Running-SDL024370108-1-b0695.webp">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">OFF LIMITS Hulk Maroon Running Shoes</p>
+			<p class="s28">RS 895 /-</p></p>
+	</div></div>
+	<div class="card s26 s34">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/i/b/a/large/Tempo-Red-Running-Shoes-SDL792545623-1-5b2c1.webp">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Tempo Red Running Shoes</p>
+			<p class="s28">RS 497 /-</p></p>
+	</div></div>
+     <div class="card s26 s34">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/h/2/u/large/Mactree-Black-Running-Shoes-SDL423220967-1-1fa8b.webp">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Mactree Black Running Shoes</p>
+			<p class="s28">RS 899 /-</p></p>
+	</div></div>
+<div class="card s26 s34">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/h/n/r/large/Adidas-Black-Backpack-SDL736222925-1-f1212.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Adidas Black 22 Ltrs Canvas College Bags Backpacks Carry Bag Men Shoulder Bag For Men & Women</p>
+			<p class="s28">RS 599 /-</p></p>
+	</div></div>
+</div>
+ <div class="carousel-item">
+<div class="card s26 s34">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/h/l/w/large/EzeeLives-Orange-Backpack-SDL327453050-1-2fea8.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">EzeeLives Orange Shoe Compartment Backpack</p>
+			<p class="s28">RS 699 /-</p></p>
+	</div></div>
+<div class="card s26 s34">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/h/y/x/large/Puma-Medium-P-U-Gym-SDL793113539-1-d1175.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Puma Medium PU Leather Gym Bags Travel Duffle Cross Bag Leather Bag Men Man</p>
+			<p class="s28">RS 599 /-</p></p>
+	</div></div>
+<div class="card s26 s34">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/i/f/h/large/Aircase-Tan-Backpack-SDL012205037-1-21245.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Aircase Tan PU Leather College Bags Backpacks For Men & Women Laptop Bag Shoulder Bag Office Bag</p>
+			<p class="s28">RS 1299 /-</p></p>
+	</div></div>
+<div class="card s26 s34">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/g/s/y/large/Maverick_Lifestyle2_1024x1024__1-3a19d.webp">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Home Story Black P.U.Leather Office bag Laptop Bag - 15.6 Inch/Side Bag Shoulder Bag Leather Bags</p>
+			<p class="s28">RS 1299 /-</p></p>
+	</div></div>
+</div>
+</div>
+  <a class="carousel-control-prev s31" href="#demo2" data-slide="next" style="position:absolute; top: 160px; left: 30px;">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next s31" href="#demo2" data-slide="prev" style="position: absolute; top: 160px;right: 40px;">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<h2 id="general" style="margin-bottom: 20px; font-size: 18px; clear: both;">TRENDING PRODUCTS</h2>
+<div id="general" style="margin-bottom: 40px;min-width: 1320px;">
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="false">
+  <ul class="carousel-indicators" style="display: none;">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/i/f/1/large/HP_15_da0326tu_Notebook_Core_SDL722478060_1_f0e99-860ce.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP 15-da0326tu 2018 15.6-inch FHD Laptop </p>
+			<p class="s28">RS 28179 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/i/h/x/large/HP-G-Series-HP-245-SDL001968971-1-1c2e3.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP G Series HP 245-G6 Notebook AMD APU A6 4 GB 35.56cm(14)</p>
+			<p class="s28">RS 18499 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/i/h/q/large/HP-15-da0073tx-Notebook-Core-SDL444148998-1-1b9b7.png">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP 15 da0073tx Notebook Core i3 (7th Generation) 4 GB 39.62cm(15.6) </p>
+			<p class="s28">RS 29999 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/i/h/h/large/HP-X360-ba151tx-Thin-Light-SDL691392670-1-725ed.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP Pavilion x360 (Core i3 - 7th Gen/4GB/ 1 TB / 35.56 cm (14 Inch) </p>
+			<p class="s28">RS 43499 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/h/n/e/large/HP-32-GB-Class-10-SDL337295977-1-7327a.png">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP 32 GB Class 10 Memory Card</p>
+			<p class="s28">RS 445 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/i/h/x/large/HP-G-Series-6JM93PA-Notebook-SDL180762132-1-2c115.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP G Series 6JM93PA Notebook Ryzen 4 GB 35.81cm(14.1) DOS Integrated Graphics Black</p>
+			<p class="s28">RS 23499 /-</p></p>
+	</div></div>
+</div>
+    <div class="carousel-item">
+     <div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/b/r/a/large/Sandisk-CRUZE-BLADE-32-GB-SDL005417980-1-eca09.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">SanDisk Cruzer Blade 32 GB USB 2.0 Pen Drive (Combo of 2)</p>
+			<p class="s28">RS 699 /-</p></p>
+	</div></div>
+<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/f/m/s/large/Somoto-Bluetooth-Audio-Receiver-Bluetooth-SDL499757533-1-fc4d7.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Somoto Bluetooth Audio Receiver Bluetooth Headset - Black</p>
+			<p class="s28">RS 249 /-</p></p>
+	</div></div>
+<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/h/i/j/large/Portronics-POR-948-Harmonics-Talky-SDL636156454-5-6f8d5.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Portronics POR-948 Harmonics Talky S Mini Bluetooth Earbud (Black)</p>
+			<p class="s28">RS 649 /-</p></p>
+	</div></div>
+<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/g/z/z/large/28893-380b0.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">SanDisk 32GB CLASS 4 Memory Card</p>
+			<p class="s28">RS 399 /-</p></p>
+	</div></div>
+<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/h/h/i/large/HP-Laserjet-80A-Black-Toner-SDL899972500-1-b6acb.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP Laserjet 80A Black Toner Cartridge Single</p>
+			<p class="s28">RS 882 /-</p></p>
+	</div></div>
+<div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/a/9/f/large/HP-WD548AA-MU06-Long-Life-SDL213522732-1-c934c.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">HP Genuine WD548AA MU06 Long Life Laptop Battery for HP Pavilion dm series HP Pavilion dv series HP Envy Series</p>
+			<p class="s28">RS 2080 /-</p></p>
+	</div></div>
+
+</div>
+</div>
+  <a class="carousel-control-prev s31" href="#demo" data-slide="next" style="position:absolute; top: 160px; left: 30px;">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next s31" href="#demo" data-slide="prev" style="position: absolute; top: 160px;right: 40px;">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<div class="s29"> 
+<h2 class="s30">BEST SELLERS</h2>
+<div class="card s26">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/i/e/p/large/Vivo-Ocean-Blue-Vivo-1820-SDL362390693-1-2249f.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Vivo Y91i (32GB, 2GB) Ocean Blue</p>
+			<p class="s28">RS 7990 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/h/i/z/large/Nokia-105-Single-Sim-2017-SDL818153196-1-90c3f.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Nokia 105 Single Sim - 2017 White</p>
+			<p class="s28">RS 1090 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/h/o/z/large/Tera_1-fc904.png" style="padding: 0px 10px;">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Terabyte E-02B 2.0 Multimedia Speakers for Laptop</p>
+			<p class="s28">RS 279 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/i/f/x/large/Coolpad-Green-Cool-3-32-SDL497417004-1-b4c29.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Coolpad Cool 3 ( 16GB , 2 GB ) Green</p>
+			<p class="s28">RS 5999 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/b/h/z/large/Adidas-Casual-Ankle-Length-Socks-SDL003566299-1-6a18f.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Adidas Casual Ankle Length Socks For Men</p>
+			<p class="s28">RS 247 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/i/c/w/large/A5Red-0f19b.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">OPPO A5 ( 32GB , 4 GB ) Red</p>
+			<p class="s28">RS 11990 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/h/m/g/large/Lava-Black-Z61-16GB-SDL326932796-1-63060.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">Lava Z61 ( 16GB , 1 GB ) Black</p>
+			<p class="s28">RS 4999 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/i/g/0/large/KolorFish-Ultra-Compact-Mobile-Phone-SDL336976433-1-e7755.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;">
+			<p class="s27">KolorFish Ultra Compact Mobile Phone 3D Screen Magnifier</p>
+			<p class="s28">RS 399 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/i/h/v/large/Callmate-STICK-3U-10000-mAh-SDL903915290-1-aa3dd.jpeg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">Callmate STICK 3U 10000 -mAh Li-Ion Power Bank Black</p>
+			<p class="s28">RS 430 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/h/2/n/large/Tiger-1-300W-10mm-Corded-SDL081445930-1-909dd.jpg">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">Tiger 10mm 350W Drill Machine Tool Kit </p>
+			<p class="s28">RS 1375 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/i/b/w/large/678727967991-b88cf.jpg" style="padding: 3px 8px;">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">JAI SHREE BEBO Blue Crepe Anarkali Kurti </p>
+			<p class="s28">RS 547 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n4.sdlcdn.com/imgs/h/5/g/large/FIVE_STAR_KURTI_Maroon_Rayon_SDL569191166_1_99727-38390.jpeg" style="padding: 3px 8px;">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">FIVE STAR KURTI Maroon Crepe Front Slit Kurti </p>
+			<p class="s28">RS 437 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n2.sdlcdn.com/imgs/g/z/z/large/666636028293-a57f2.jpg" style="padding: 3px 8px;">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">SanDisk Ultra Dual 64 GB USB 3.0 OTG Pendrive</p>
+			<p class="s28">RS 879 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n1.sdlcdn.com/imgs/a/l/o/large/Hp-Laserjet-M-1005-Multifunction-1601548-1-ebee5.jpg" style="padding: 3px 8px;">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">HP LaserJet M1005 Multifunction Printer</p>
+			<p class="s28">RS 17399 /-</p></p>
+	</div></div>
+	<div class="card s26">
+	<img class="card-img-top" src="https://n3.sdlcdn.com/imgs/i/f/o/large/SBN-Girls-Midi-Knee-Length-SDL589171996-1-deb95.jpg" style="padding: 3px 8px;">
+	<div class="card-body">
+		<p class="card-text" style="margin-bottom: 0px;" >
+			<p class="s27">SBN Girls Midi/Knee Length Party Dress (Red, Sleeveless) </p>
+			<p class="s28">RS 399 /-</p></p>
+	</div></div>
+</div>
+<div class="s21">
+	<div style="width: 44% ; text-align: center; padding-left: 30px;">
+	<div class="s20"></div></div>
+	<div class="s23">
+	<div class="s22"> Download Snapdeal App Now</div>
+	<div class="s24">Fast, Simple & Delightful.</div>
+	<div class="s24" style="margin-bottom: 50px;">All it takes is 30 seconds to Download.</div>
+	<div class="s25" /></div>
+	<div class="s25" style="background-position: 0px -196px;"></div></div>
+</div>
+<div class="s13" style="border-bottom: 1px solid #e2e2e2; padding: 5px 0px; border-top: 1px solid #e2e2e2;overflow: hidden;">
+	<div id="general" style="clear: both;">
+		<div class="s19">
+			<img src="https://lh3.googleusercontent.com/8jHwsjTf7ns0D_YYmgyJ3rSXHTsV7oPaw8aWaUe6oCBJGzgNgXhGB-CBtpRMYKytxeyr=s113" height="80" width="100">
+			<div class="s15 fon">100% secured payment</div>
+			<ul class="s16 mxw"><li>Moving your card detail to a much</li>
+				<li>more</li>
+				<li>secured place</li></ul>
+		</div>
+		<div class="s19">
+			<img src="https://lh3.googleusercontent.com/W2rD3vuXc0od0Hlx4UeU-2HrX9_gVX350H5SrdpXtu08HjAURodx52c6YFdoIzPfIYYJTg=s85" width="80" height="80">
+			<div class="s15 fon">Trustpay</div>
+			<ul class="s16 mxw"><li>100% payment protection</li>
+				<li>Return policy</li>
+		</div>
+		<div class="s19">
+			<img src="https://lh3.googleusercontent.com/cMRkkkQPMJhrTor2cnpmEV-r_AezzQbyQF_Oj7eLp7bejGNlx8F4HUaMdE1pYGiWg7VJLg=s157" width="150" height="80">
+			<div class="s15 fon">help center</div>
+			<ul class="s16 mxw"><li>Got a question? Look no further.</li>
+				<li>Browse our FAQs and submit your</li>
+				<li>query here.</li></ul>
+		</div>
+		<div class="s19">
+			<img src="https://lh3.googleusercontent.com/qz793alXvEe3Gdn6zxIXAlX5WAchYoa-hwPDjVbSfFNd6zdu2zYthirzTmazDgCb39aAXQ=s85" width="80" height="80">
+			<div class="s15 fon">shop on the go</div>
+			<ul class="s16 mxw"><li>Download the aap and get exciting</li>
+				<li>aap only offer at your fingertip.</li></ul>
+		</div>
+	</div>
+</div>
+<div class="s13" >
+	<div class="s14 apply" style="width: 20%;">
+		<div class="s15">POLICY INFO</div>
+		<ul class="s16">
+			<li>Privacy Policy</li><li>Terms of Sale</li><li>Terms of Use</li><li>Report Abuse & Takedown Policy</li></ul>
+	</div>
+	<div class="s14" style="width: 10.67%">
+		<div class="s15">COMPANY</div>
+		<ul class="s16">
+			<li>About Us</li><li>Core Values</li><li>Careers</li><li>Blog</li><li>Sitemap</li></ul>
+	</div>
+	<div class="s14" style="width: 10.67%">
+		<div class="s15">SNAPDEAL BUSINESS</div>
+		<ul class="s16"><li>Shopping App</li><li>Sell on Snapdeal</li><li>Advertise on Snapdeal</li><li>Media Enquiries</li><li>Be an Affiliate</li>
+	</ul></div>
+	<div class="s14" style="width: 10.67%">
+		<div class="s15">NEED HELP ?</div>
+		<ul class="s16">
+			<li>FAQ</li><li>Contact Us</li><li>Online Shopping</li></ul>
+		</div>
+	<div class="s14" class="apply1" style="width: 20%">
+		<div class="s15">SUBSCRIBE</div>
+		<input type="text" placeholder="Your email address" class="txt s17">
+		<button class="s18" style="width: 29.167%">SUBSCRIBE</button>
+		<div class="s16" style="width: 100%;font-size:10px;margin-top:12px; max-width: none;">
+		Register now to get updates on promotions and</div>
+		<div class="s16" style="width: 100%;font-size:10px;max-width: none;">
+		coupons. <span class="h" style="color: #25a8ed"> Or Download App</span></div>
+	</div>
+</div>
+<div class="s11">
+<div class="s12 apply">
+	<p style="margin: 0px;">Payment</p>
+	<div style="margin-top: 10px;">
+	<img src="https://lh3.googleusercontent.com/e5jfGsFzwjHTFa7DDj8xd8UEaaTcmDSVsLqzd49oxcGTWES2_IkqErtDPoFtz0sUOtd8=s134" width="44" height="31">
+	<img src="https://lh3.googleusercontent.com/cpKfMInyc6u5D-bXJXVBamldAqnM2xxTZidVZ8SP6kbqzT1CD_5-6nHfegIm6REIiERAPQ=s129" width="44" height="31">
+	<img src="https://lh3.googleusercontent.com/v8DD1QLu_BIsvHuTnerVVxcOSsUmS4g2gd3kocJChvsuKMiMLdYqMfax59cYZ6_P_27LoQ=s109" width="44" height="31">
+	<img src="https://lh3.googleusercontent.com/0jHZtqpUQirFh29-Fg55MPtELqhwk65-rGfClEzXLVNoKZxyh2wbLgRsRbVdVWxTJMGvGg=s135" width="44" height="31">
+	<img src="https://lh3.googleusercontent.com/PrpqcGtBeoBttz1vxF_piObQ0AXENs2pLDbarZxuo0As0qkEbRAa63QDlAYegZiKiqif67Q=s103" width="44" height="35">
+	<img src="https://lh3.googleusercontent.com/FpZjfGNfcXtKZ5CbeVIrGQMcwof2-Pnjeiv-0rvSke3mEHErSEnj5P_wYc9zbdCV5E1nOM0=s134" width="44" height="31">
+	</div>
+</div> 
+<div class="s12">
+	<p style="margin: 0px;">CONNECT</p>
+	<div style="margin-top: 10px;">
+	<img src="https://lh3.googleusercontent.com/u5W3dDyh75I2fQrzFxsNR4L0JSNNk_aI826RplNieYaEY9In38W1f8uG6So1LoXz-ZviEH4=s85" width="19" height="28">
+	<img src="https://lh3.googleusercontent.com/nEGpePZTuDbOQY9z8BT2umawAYK_bSZuPWjsihLGryRxYflZUSj89KiQo9qVq0ratKm6zA=s105" width="29" height="28">
+	<img src="https://lh3.googleusercontent.com/UOVBcDvNKZhKpb4hIfN22oW0sxVgZ0XCTCH3Mh1ayVBvSLvNLCg9OrhzBRbLJEnqP76sYA=s121" width="29" height="26">
+	<img src="https://lh3.googleusercontent.com/U6PrA-5k3qPWvcyZfUlYpFMu6HJPG1rS2DjNhdfugyKEFmei84z6XeOeV-0Gy_5UBj4HSw=s85" width="29" height="26">
+	<img src="https://lh3.googleusercontent.com/0vz_Xr1vCL8ibVCOgTmf4jKgCoZLrqiQ6jbv06M0njZUJTIssINk-wpucX0zG0QqDRfY=s85" width="29" height="26">
+	</div>
+</div>
+</div>
+<div class="s10" style="clear: left;">
+<div class="footer">
+	<ul><li>Mobiles</li>: <li>4G Mobiles</li> / <li>Smartphones</li> / <li>Samsung Mobiles </li>/ <li>Micromax Mobiles</li> /<li> Lenovo Mobiles</li> / <li>iPhones</li> / <li>Vivo Mobiles</li> /<li>Oppo Mobiles</li> / <li>Intex Mobiles</li> / <li>Asus Mobiles</li></ul>
+	<ul><li>Mobiles Accessories</li>: <li>Mobile Covers</li> / <li>Leather Mobile Covers</li> / <li>Printed Back Covers</li> / <li>10000mAh Power Banks</li> / <li>Ambrane Power Banks</li> / <li>Intex Power Banks</li> /<li> VR Headsets</li> /<li> Smart Watches</li> / <li>Smart Bands</li> /<li> Fitness Bands</li> / <li>Tempered Glass</li> /<li> Wall Chargers</li> /<li> Feature Phones</li> /<li> Bluetooth Devices<li></ul>
+	<ul><li>TVs, Audio & Video</li>:<li> Televisions</li> /<li> LED TVs </li>/<li> Smart Televisions</li> / <li>Ultra HD TV </li>/ <li>FHD TV</li> /<li> 3D TV </li>/ <li>HD Ready TV</li> /<li> Speakers</li> /<li> Headphones</li> / <li>Earphones</li> / <li>Samsung Televisions</li> /<li> Micromax Televisions</li> / <li>LG Televisions</li> /<li> Home Theatre Systems</li></ul>
+	<ul><li>Memory Cards</li>:<li> 8 GB Memory Cards</li> /<li> 16 GB Memory Cards</li> / <li>32 GB Memory Cards </li>/<li> 64 GB Memory Cards</li> /<li> Sandisk Memory Cards<li> / <li>Samsung Memory Cards </li>/ <li>Strontium Memory Cards</li></ul>
+	<ul><li>Computers</li>: <li>Lenovo Laptops</li> / <li>Acer Laptops</li> / <li>Apple Macbooks </li>/ <li>Notebook </li>/<li> Laptops</li> / <li>External Hard Disks</li> /<li> Dell Laptops</li> / <li>HP Laptops</li> / <li>Pen Drives</li></ul>
+	<ul><li>Camera</li>: <li>DSLR Cameras </li>/<li> Canon Cameras</li> /<li> Nikon Coolpix</li> / <li>Nikon DSLR Cameras</li> /<li> Sony Cameras</li> / <li>Digital Cameras </li>/<li> Panasonic Cameras</li> /<li> Samsung Cameras<li></ul>
+	<ul><li>Watches</li>:<li> Mens Watches</li> /<li> Womens Watches</li> /<li> Casio Watches</li> / <li>Titan Watches</li> / <li>Fastrack Watches</li> / <li>Fossil watches</li> / <li>Casio Edifice</li></ul>
+	<ul><li>Fashion Accessories</li>:<li> Bags</li> /<li> Wildcraft</li> /<li> Skybags</li> /<li> Fastrack Bags</li> /<li> Shoes </li>/<li> Floaters & Sandals </li>/<li> Kurta</li> /<li> Raymond</li></ul>
+	<ul><li>Men's Clothing: Shirts</li> /<li> Casual Shirts</li> / <li>Formal Shirts</li> / <li>Party Wear Shirts</li> /<li> T Shirts</li> /<li> Polo T shirts</li> /<li> Low Rise Jeans</li> / <li>Slim Jeans </li>/<li> Reversible Jackets</li> /<li> V Neck T shirts </li>/<li> Henley T shirts</li> / <li>Printed T shirts</li> /<li> Round Neck T shirts </li>/ <li>Chinos</li> / <li>Hooded Sweatshirts</li> /<li> Kurta Payjama Sets</li> /<li> Dhoti Kurta Sets</li> / <li>Cotton Shirts</li> / <li>Full Sleeves Casual Shirts</li> /<li> Full Sleeves Formal Shirts</li> /<li> Regular Fit Formal Shirts</li> /<li> Silk Party Shirts</li></ul>
+	<ul><li>Women's Clothing</li>:<li> Saree</li> /<li> Designer Saree</li> / <li>Cotton Sarees</li> / <li>Georgette Sarees</li> / <li>Chiffon Sarees</li> / <li>Net Sarees</li> /<li> Anarkali Suits</li> /<li> Kurtis</li> /<li> Leggings & Churidars </li>/ <li>Embroidered Lehengas</li> / <li>Bridal Lehengas </li>/ <li>Black Dresses</li> /<li> Jeggings</li> /<li> Jeans</li> /<li> A Line Skirts</li> / <li>Women's Gowns</li> /<li> Women's Dresses</li></ul>
+	<ul><li>Home & Kitchen</li>: <li>Home Decor</li> /<li> Paintings</li> /<li> Clocks</li> /<li> Flasks & Thermos</li> /<li> Photo Frames</li> /<li> Tupperware Kitchenware</li> /<li> Hawkins Kitchenware</li> /<li> Milton Kitchenware</li></ul>
+	<ul><li>Books</li>:<li> Fiction</li> / <li>Non Fiction</li> / <li>Children & Young Adults</li> /<li> Competitive Exams</li> /<li> School Books</li> / <li>Academic Texts</li> / <li>Reference</li> /<li> Self Help</li></ul>
+	<ul><li>FMCG Offer - Top Brands</li>:<li> Revlon</li> /<li> Street Wear </li>/<li> St. Ives </li>/ <li>Accu-Chek Health Monitoring Devices</li> /<li> Nutraj - California Walnuts</li> /<li> JSB Massagers</li> / <li>Park Avenue </li>/<li> Gillette</li> / <li>Airwick</li> /<li> Veet</li> /<li> Livon</li> / <li>Mortein</li> /<li> Whisper</li> /<li> KamaSutra </li>/<li> Durex</li> /<li> Bio Oil</li></ul>
+	<ul><li>Appliances</li>: <li>Air Conditioners </li>/<li>Air Coolers</li> /<li>Refrigerators</li> /<li> Fans</li> / <li>Washing Machines</li> / <li>Mircowaves</li> /<li> Irons</li> /<li> Trimmers</li> /<li> Hair Dryers</li> /<li> Shavers </li>/<li> Vacuum Cleaners</li> /<li> Air Purifiers </li>/ <li>CCTV Cameras</li> /<li> Ceiling Fans</li> /<li> Table Fans</li> /<li> Exhaust Fans</li> /<li> Pedestal Fans</li> /<li> Ceiling Fans with 4 Blades</li> /<li> Ceiling Fans with 6 Blades</li></ul>
+	<ul><li>Home Furnishing</li>:<li> Bed Linen</li> /<li> Bed Sheets</li> /<li> Bath Linen </li>/ <li>Mattresses </li>/<li> Curtains</li> /<li> Cushion Covers</li> /<li> Pillows</li> /<li> Carpets</li> / <li>Kids Bedding</li></ul>
+	<ul><li>Furniture Online</li>:<li> Sofa Set </li>/ <li>Sofa Cum Beds</li> /<li> Chairs </li>/<li> Dining Sets</li> /<li> Bean Bags</li> /<li> Shoe Storage</li> /<li> Dining Chairs</li> /<li> Storage Cabinets</li> /<li> Tables and Desks</li> /<li> Bedroom Furniture</li> /<li> Living Room Furniture</li> /<li> XXXL Bean Bags</li> /<li> Chair Shape Bean Bags</li> /<li> Lounger Shape Bean Bags</li> / <li>Muddha Shape Bean Bags </li>/<li> Black Color Bean Bags</li></ul>
+	<ul><li>Toys & Games</li>:<li> Soft Toys</li> /<li> Dolls</li> /<li> Musical Toys</li> /<li> Kids Skates</li> /<li> Kids Skate Scooters</li> /<li> Barbie Games</li> /<li> Action Figures</li> / <li>Electronic Toys</li> /<li> Action figures</li> / <li>Toddler Toys</li> /<li> Die Cast Vehicle</li> / <li>Ride Ons & Scooters</li></ul>
+	<ul><li>Todays Deals</li>:<li> Bestsellers</li> / <li>Deals of the Day</li> /<li> Most Searched Products</li> /<li> Home Utility Offers </li>/ <li>Laptops & Accessories Offers </li>/<li> Men's Fashion </li>/ <li>Women's Fashion</li> / <li>Price Point Store</li> /<li> Laptops & Accessories Offers</li></ul>
+	<ul><li>Online Shopping</li>:<li> Everything below 299</li> /<li> Mens Footwear</li> /<li> Lehenga </li>/<li> Dresses</li> /<li> Mobile Phones</li> /<li> Womens Watches</li> /<li> Kurtis</li> / <li>Smartphones </li>/ <li>Womens Footwear</li> / <li>Sarees</li> /<li> Casual Shoes</li> /<li> Laptops</li> /<li> Mens Watches</li> /<li> Womens Casual Shoes</li> / <li>4G Mobiles</li> /<li> Frocks</li> / <li>Women Suits </li>/<li> Tops & Tunics </li>/<li> Gowns </li>/<li> Watches</li> / <li>Sports & Bicycles</li> /<li> Water Geysers</li> / <li>Men's Sportswear</li> /<li> Multi Speed Bi-cycles</li> / <li>Mobile Batteries</li> /<li> Kids T-shirts</li> / <li>Girls Frocks & Junpsuits </li>/<li> Kids Watches </li>/<li> Stationery Supplies</li> /<li> Baby Care Products</li> / <li>Copper Water Bottles</li></ul>
+</div>
+<p class="footerp">ABOUT SNAPDEAL</p>
+<div class="footer">
+About Snapdeal – India’s Ultimate Online Shopping Site Snapdeal’s vision is to create India’s most reliable and frictionless commerce ecosystem that creates life-changing experiences for buyers and sellers. In February 2010, Kunal Bahl along with Rohit Bansal, started Snapdeal.com - India’s largest online shopping marketplace, with the widest assortment of 35 million plus products across 800 plus diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 300,000 sellers, Snapdeal is the online shopping site for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Snapdeal has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, Alibaba, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others. Online Shopping – A Boon The trend of online shopping is becoming a household name and so is Snapdeal. Snapdeal is the preferred choice of hundreds of thousands of online shoppers given its mammoth assortment of 15 million+ products, quick delivery even to the remotest corners of the country, and daily deals, discounts & offers to make products available at slashed down prices to our valuable customers. Get Started! Shop Online Today at Snapdeal If you have been missing out on all the fun of online shopping thinking it requires one to be a technology aficionado then we have good news for you. Shopping online particularly at Snapdeal is a child’s play; all you need is a mobile phone or laptop or tablet with Internet connection to get started. Simply log into Snapdeal.com and browse through the wide assortment of products across categories. Once you have zeroed in on your favorite products, simply place the order by filling in the details; the products will be delivered right at your doorstep. Fulfill Your Entrepreneurial Dreams! Sell Today at Snapdeal Thanks to easy-to-understand, flexible policies and SD Advisors to help sellers at each step, anyone from a manufacturer to wholesaler to retailer can sell on Snapdeal. Begin your entrepreneurial journey with Snapdeal as a seller by filling a simple registration form here. Once the registration process is done, you can start selling your products to the entire country by sitting at your home or office. Doesn't it sound thrilling? Of course, it is and the excitement will build up with every order you receive! Start selling at Snapdeal today and see your business reach staggering heights. Shop on the Go – Install Snapdeal App Today! You can shop for your favourite products at Snapdeal even on the go using Snapdeal App. Available for both Android and Apple users, the app can be downloaded from Google Play Store and Apple App Store respectively. The app is quick, user-friendly, and enables shoppers buy products with a breeze. What's more, get timely notifications on your phone or tablet so that you don't miss amazing deals and offers. Download the app right now and experience how fun it is to shop on your mobile!
+</div>
+</div>
+<footer class="footerinner">
+<div id="general">
+<span class="rfloat">
+Copyright © 2019, Snapdeal Private Limited (formerly Jasper Infotech Private Limited). All Rights Reserved
+</span>
+<span class="lfloat">Made by Abhishek kumar</span>
+</div>
+</footer>
+</body>
+</html>

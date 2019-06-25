@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script type="text/javascript">
+			var value1,value2,input1,input2,total;
+			function firstdata(value1) {
+				if(document.getElementById('first_num').value=="")
+				{
+					document.getElementById('first_num').value=value1;
+				}
+				else {
+					input1=document.getElementById('first_num').value+value1;
+					document.getElementById('first_num').value=input1;
+				}
+			}
+			function seconddata(value2) {
+				if(document.getElementById('second_num').value=="")
+				{
+					document.getElementById('second_num').value=value2;
+				}
+				else {
+					input2=document.getElementById('second_num').value+value2;
+					document.getElementById('second_num').value=input2;
+				}
+			}
+
+			function outputSum() {
+				var data1=document.getElementById('first_num').value;
+				var data2=document.getElementById('second_num').value;
+				var total= parseInt(data1)+parseInt(data2);
+				alert('OutPut is : '+ total);
+			}
+			function outputSub() {
+				var data1=document.getElementById('first_num').value;
+				var data2=document.getElementById('second_num').value;
+				var total= parseInt(data1)-parseInt(data2);
+				alert('OutPut is : '+ total);
+			}
+			function outputMul() {
+				var data1=document.getElementById('first_num').value;
+				var data2=document.getElementById('second_num').value;
+				var total= parseInt(data1)*parseInt(data2);
+				alert('OutPut is : '+ total);
+			}
+			function outputDiv() {
+				var data1=document.getElementById('first_num').value;
+				var data2=document.getElementById('second_num').value;
+				var total= parseInt(data1)/parseInt(data2);
+				alert('OutPut is : '+ total);
+			}
+		</script>
+		<style media="screen">
+			.btn{
+				padding: 48px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<br><br><br>
+			<h1 class="h1" style="text-align:center">Simple Calculator</h1>
+			<input type="text" class="form-control" name="" id="first_num" placeholder="First Number" disabled><br>
+			<button class="btn btn-primary"   onclick="firstdata(0)" type="button" >0</button>
+			<button class="btn btn-warning" onclick="firstdata(1)" type="button">1</button>
+			<button class="btn btn-danger"    onclick="firstdata(2)" type="button" >2</button>
+			<button class="btn btn-primary"   onclick="firstdata(3)" type="button" >3</button>
+			<button class="btn btn-warning" onclick="firstdata(4)" type="button" >4</button>
+			<button class="btn btn-danger"    onclick="firstdata(5)" type="button" >5</button>
+			<button class="btn btn-primary"   onclick="firstdata(6)" type="button" >6</button>
+			<button class="btn btn-warning" onclick="firstdata(7)" type="button" >7</button>
+			<button class="btn btn-danger"    onclick="firstdata(8)" type="button" >8</button>
+			<button class="btn btn-primary"   onclick="firstdata(9)" type="button" >9</button>
+		</div>
+		<br>
+		<div class="container">
+
+			<input type="text" class="form-control" name="" id="second_num" placeholder="Second Number" disabled><br>
+			<button class="btn btn-primary"   onclick="seconddata(0)" type="button" >0</button>
+			<button class="btn btn-warning" onclick="seconddata(1)" type="button">1</button>
+			<button class="btn btn-danger"    onclick="seconddata(2)" type="button" >2</button>
+			<button class="btn btn-primary"   onclick="seconddata(3)" type="button" >3</button>
+			<button class="btn btn-warning" onclick="seconddata(4)" type="button" >4</button>
+			<button class="btn btn-danger"    onclick="seconddata(5)" type="button" >5</button>
+			<button class="btn btn-primary"   onclick="seconddata(6)" type="button" >6</button>
+			<button class="btn btn-warning" onclick="seconddata(7)" type="button" >7</button>
+			<button class="btn btn-danger"    onclick="seconddata(8)" type="button" >8</button>
+			<button class="btn btn-primary"   onclick="seconddata(9)" type="button" >9</button>
+		</div>
+
+		<br>
+		<div class="container">
+			<button class="btn btn-danger" type="button" onclick="outputSum()" name="button">Add</button>
+			<button class="btn btn-success" type="button" onclick="outputSub()" name="button">Subtract</button>
+			<button  class="btn btn-warning" type="button" onclick="outputMul()" name="button">Multiply</button>
+			<button class="btn btn-info" type="button" onclick="outputDiv()" name="button">Divide</button>
+		</div>
+	</body>
+</html>

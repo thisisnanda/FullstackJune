@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			var data=["Sandeep","Mansotra"];
+			console.log(data);
+			data.push("Sharma");  //insert element at last
+			console.log(data);
+			var remove=data.pop();  //pop is remove the array element
+			console.log(remove);
+			console.log(data);
+			data.unshift("Sandeep");
+			console.log(data);   //add at starting of array
+			data.shift();
+			console.log(data);  //remove from Ist place
+
+			var newarr=["one","two","Three","four","five","six","seven"];
+			delete newarr[2];  //delete element at position
+			console.log(newarr);
+
+			console.log(newarr.length);
+
+			var data1=["one","two","Three","four","five","six","seven"];
+			console.log(data1);
+			data1.splice(2,1,"3","4","5");  // deleteing and adding data..
+			data1.splice(2,0,"3","4","5"); //without deleteing only add data
+			console.log(data1);
+
+			var arr1=["one","two","Three","four","five","six","seven"];
+			var arr2=["1","2","3","4"];
+			var data2= arr2.concat(arr1); //merging two array
+			console.log(data2);
+
+
+			var arr3=["one","two","Three","four","five","six","seven"];
+			var data3=arr3.slice(2,4); //for cutting array...like sub array
+			console.log(data3);
+			console.log(arr3);
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

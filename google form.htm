@@ -26,18 +26,61 @@
 			border: 0px;
 		}
 	</style>
+	<script type="text/javascript">
+	function validation() {
+			if (document.buy.name.value==""){
+				alert("Name is empty !");
+				return false;
+			}
+		if(document.buy.email.value==""){
+				alert("email is empty !");
+				return false;
+			}
+		
+		 if(document.buy.address.value==""){
+				alert("address is empty !");
+				return false;
+			}
+		 if(document.buy.post.value==""){
+				alert("post code is empty !");
+				return false;
+			}
+		if(document.buy.country.value=="select"){
+				alert("country is not selected !");
+				return false;
+			}
+		if(document.buy.card_type.value==""){
+				alert("card is not selected !");
+				return false;
+			}
+		if(document.buy.card_number.value==""){
+				alert("card number is empty !");
+				return false;
+			}
+		if(document.buy.pin.value==""){
+				alert("pin is empty !");
+				return false;
+			}
+		if(document.buy.name_card.value==""){
+				alert("please provide name on card !");
+				return false;
+			}
+			return true;
+		}
+	</script>
 </head>
 <body>
-	<form action="one.html" method="post">
+	<form name="buy" action="one.html" method="get" onsubmit="return validation()">
 	<div>
 		<h2>Step 1: Your details</h2>
-		<p>Name <input type="text" name="name" /></p>
-		<p>Email <input type="email" name="email" /></p>
-		<p>phone <input type="tel" name="phone" pattern="[+,0-9]{3}-[0-9]{10}" /></p>
+		<p>Name <input type="text" name="name" id="name" /></p>
+		<p>Email <input type="email" name="email" id="email" /></p>
+		<p>phone <input type="tel" name="phone" pattern="[+,0-9]{3}-[0-9]{10}" id="phone" /></p>
 		<h2>Step 2: Delivery address</h2>
-		<p>Address <textarea name="address" rows="7" cols="40" style="border:0px; border-radius: 10px;"></textarea></p>
-		<p>post code <input type="rrl" name="post code" pattern="[0-9]{6}" /></p>
-		<p>country <select>
+		<p>Address <textarea id="address" name="address" rows="7" cols="40" style="border:0px; border-radius: 10px;"></textarea></p>
+		<p>post code <input type="rrl" name="post code" pattern="[0-9]{6}" id="post" /></p>
+		<p>country <select id="country">
+			<option name="country" value="select">select</option>
 			<option name="country" value="India">India</option>
 			<option name="country" value="China">China</option>
 			<option name="country" value="USA">USA</option>
@@ -49,12 +92,12 @@
 		</select>
 		<h2>step 3: Card details</h2>
 		<p>card type<br />
-			<input type="radio" name="card" value="VISA" />VISA
-			<input type="radio" name="card" value="AmEx" />AmEx
-			<input type="radio" name="card" value="Mastercard" />Mastrcard</p>
-		<p>card number <input type="rrl" name="card number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" /></p>
-		<p>Security code <input type="text" name="pin" /></p>
-		<p>Name on card <input type="text" name="card holder name"/></p>
+			<input type="radio" name="card" value="VISA" id="card_type" />VISA
+			<input type="radio" name="card" value="AmEx" id="card_type"/>AmEx
+			<input type="radio" name="card" value="Mastercard" id="card_type"/>Mastrcard</p>
+		<p>card number <input id="card_number" type="rrl" name="card number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" /></p>
+		<p>Security code <input type="text" name="pin" id="pin" /></p>
+		<p>Name on card <input type="text" name="card holder name" id="name_card" /></p>
 		<span><center><input type="submit" value="BUY it" style="margin-bottom: 30px ;background-color: maroon; color: white;
 		font-size:24px; height: 50px;"></center></span></div>
 	</form>

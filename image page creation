@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>image discription</title>
+		<link rel="stylesheet" href="img.css">
+	
+	</head>
+	<body>
+	
+		<img src="https://rukminim1.flixcart.com/image/312/312/jsyyufk0/mobile/n/5/r/samsung-galaxy-a30-sm-a305fzbfins-original-imafefgg2vhezgr7.jpeg?q=70">
+		
+		<ul>
+			<li>4GB RAM|64 GB ROM|Expandable upto 512 GB</li>
+			<li>16.26cm(6.4inch)FHD+Display</li>
+			<li>16MP+5MP|16MP Front Camera</li>
+			<li>4000 mAh Lithium-ion Battery</li>
+			<li>Exynos 7904 processor</li>
+			<li>Super AMOLED Display</li>
+			<li>Brand Warranty of1 Year Availble for mobile and 6 months for accessories</li>
+			
+		</ul>
+		
+		<div class="con">
+		<h3>Description</h3>
+			<p>Explore the world with the Samsung Galaxy A30 smartphone. Its sAMOLED 16.21 cm (6.4) FHD+ Infinity-U Display redefines your visual experience. The Dual Camera System, comprising the 16 MP Low Light Camera and 5 MP Ultra-wide Camera, lets you take rich and beautiful pictures. Powered by the Exynos 7904 Processor and 4 GB of RAM, this phone will make multitasking seamless.</p>
+		</div>
+<div class="container">
+	<table border="0" width="60%">
+		<thead>
+			<tr>
+				<h3>Specifications</h3>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>In The Box</td>
+				<td>Handset, Charger, Earphone, User Manual</td>
+			</tr>
+			<tr>
+				<td>Model Number</td>
+				<td>SM-A305FZBFINS</td>
+			</tr>
+			<tr>
+				<td>Model Name</td>
+				<td>Galaxy A30</td>
+			</tr>
+			<tr>
+				<td>Color</td>
+				<td>Blue</td>
+			</tr>
+			<tr>
+				<td>Browse Type</td>
+				<td>Smartphones</td>
+			</tr>
+			<tr>
+				<td>SIM Type</td>
+				<td>Dual Sim</td>
+			</tr>
+			<tr>
+				<td>Touchscreen</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>OTG Compatible</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Quick Charging</td>
+				<td>Yes</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+
+	</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<script type="text/javascript">
+	
+	
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+	var val1,val2,input1,input2,total;
+	function first(val1){
+		if(document.getElementById('First').value==""){
+			document.getElementById('First').value=val1;
+		}
+		else{
+			input1=(document.getElementById('First').value)+val1;
+		    document.getElementById('First').value=input1;
+		}
+	}
+	function second(val2){
+		if(document.getElementById('second').value==""){
+			document.getElementById('second').value=val2;
+		}
+		else{
+			input2=(document.getElementById('second').value)+val2;
+		    document.getElementById('second').value=input2;
+		}
+}
+	function output(){
+		var data1=document.getElementById('First').value;
+		var data2=document.getElementById('second').value;
+		var total=parseInt(data1)+parseInt(data2);
+		alert('output is'+total);
+	}
+	function outp(){
+		var data1=document.getElementById('First').value;
+		var data2=document.getElementById('second').value;
+		var total=parseInt(data1)*parseInt(data2);
+		alert('output is'+total);
+	}
+	function out(){
+		var data1=document.getElementById('First').value;
+		var data2=document.getElementById('second').value;
+		var total=parseInt(data1)-parseInt(data2);
+		alert('output is'+total);
+	}
+	function output1(){
+		var data1=document.getElementById('First').value;
+		var data2=document.getElementById('second').value;
+		var total=parseInt(data1)/parseInt(data2);
+		alert('output is'+total);
+	}
+</script>
+	<button onclick="first(1)">1</button>
+	<button onclick="first(2)">2</button>
+	<button onclick="first(3)">3</button>
+	<button onclick="first(4)">4</button>
+	<button onclick="first(5)">5</button>
+	<button onclick="first(6)">6</button>
+	<button onclick="first(7)">7</button>
+	<button onclick="first(8)">8</button>
+	<button onclick="first(9)">9</button>
+	<button onclick="first(0)">0</button>
+	<br>
+	<br>
+	First_no<input type="text" name="First_no" id="First">
+	<br>
+	<br>
+	<button onclick="second(1)">1</button>
+	<button onclick="second(2)">2</button>
+	<button onclick="second(3)">3</button>
+	<button onclick="second(4)">4</button>
+	<button onclick="second(5)">5</button>
+	<button onclick="second(6)">6</button>
+	<button onclick="second(7)">7</button>
+	<button onclick="second(8)">8</button>
+	<button onclick="second(9)">9</button>
+	<button onclick="second(0)">0</button>
+	<br>
+	<br>
+	second_no<input type="text" name="second_no" id="second">
+	<br>
+	<br>
+	<button onclick="output()">Add</button>
+	<button onclick="outp()">mul</button>
+	<button onclick="out()">sub</button>
+	<button onclick="output1()">div</button>
+	
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+	<head>
+		<title>
+		AirtelServices.com
+		</title>
+	</head>
+	<body>
+		this is the official Website for "Airtel.com".
+	</body>
+	<footer>
+		&copy<span>all copyright reserver</span>
+		&reg<span> Gov. Registered Organisation</span>
+	</footer>
+</html>

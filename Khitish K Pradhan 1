@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basics of html</title>
+	<meta charset="utf-8" http-equiv="refresh" content="2">
+
+</head>
+<body style="background: black">
+
+	<h1 style="text-align:center; color: yellow;"><u>This is created by khtish kumar pradhan</u></h1>
+
+<div style="text-align: center;">
+	<a href="https://github.com/KhitishKumarPradhan" style="color: blue; font-size: 20px;">check out my github profile by clicking on this link</a>
+</div>
+
+	<h1 style="text-align:center; color: white;"><u>basics tags,elements and attributes in html:</u></h1>
+
+    
+	<h1 style="color: blue;"><i>Blue</i></h1>
+	<h2 style="color: red;"><del>Red</del></h2>
+	<h3 style="color: green;"><b>Green</b></h3>
+	<h4 style="color: pink;">Pink</h4>
+	<h5 style="color: purple;">Purple</h5>
+	<h6 style="color: yellow;"><u>Yellow</u></h6>
+
+
+
+	<p style="color: white; font-size: 25px;">Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript,<br>
+	 it forms a triad of cornerstone technologies for the World Wide Web.</p>
+
+
+
+	<p style="color: #49d445; font-size: 20px;"><u>a<sup>2</sup>+b<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab</u></p>
+
+
+
+	
+</body>
+</html>

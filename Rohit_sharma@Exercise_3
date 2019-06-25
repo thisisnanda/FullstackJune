@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic tags</title>
+</head>
+<body>
+<h1><b style="color:#ff5050">ROHIT SHARMA</b></h1>
+<hr>
+
+<p>Computer Science Engineer from <b>Lovely Professional University, Punjab</b>. I am from Jammu and Kashmir. I am learner, observer and have strong belief to develop <span style="color:#FF8000;">UI Designs</span>.I am <br> interested in the fields of Web Development and Animation.
+I am seeking for an organization that provides me an opportunity to enhance my Technical Skills, so that I get experience <br>and can explore myself.
+</p>
+<h2><a href="https://www.linkedin.com/in/rohit-sharma-65610914b/" style="color: #339966" target="_blank">More...</a></h2>
+<div> &lt div &gt Div tag which is block level element &lt div &gt</div>Automatically creates new line
+<!-- target="_blank" -->
+
+<br><strong>Strong tag< used for presentation</strong>
+<br><b>Bold tag used for semantic behavior</b>
+<div>Strong and bold explaination: <br>
+"strong" means "stronger emphasis", and implies no particular visual style. It has semantic meaning, but by default a browser could style it to look like anything, not just bold. On the other hand, "b" literally means 'make this text bold', without any attached meaning.</div>
+<br><br>
+&lt iframe tag &gt <br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZhJjRBnWYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+
+</html>

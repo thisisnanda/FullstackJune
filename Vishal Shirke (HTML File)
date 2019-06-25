@@ -1,0 +1,31 @@
+<! The tags for which we used that are: Basic tags, Block evel Elements, Inline Elements, Attributes>
+
+<html>
+<head>
+<title> Board Infinity </title>
+</head>
+<body>
+
+ <center><h1> W3C Schools </h1></center>
+
+<h1 style="color:blue;"><a href="https://www.w3schools.com/html/default.asp">Click for  HTML Toturial</a></h1>
+<h2 style="color:red;"><a href="https://www.w3schools.com/css/default.asp">Click for CSS Toturial</a></h2>
+<h3 style="color:pink;"> <a href="https://www.w3schools.com/js/default.asp"> Click for JAVA Toturial </a> </h3>
+<h4 style="color:green;"> <a href="https://www.w3schools.com/sql/default.asp"> Click for SQL Toturial </a> </h4>
+<h5 style="color:maroon;"> <a href="https://www.w3schools.com/php/default.asp"> Click for PHP Toturial </a> </h5>
+<h6 style="color:yellow;"> <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp"> This is Bootstrap Toturial </a> </h6>
+
+<h1> <i> The Chemical Reactions: </i></h1>
+ <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Sulfurous-acid">1. Sulfurous Acid Formula </a> H<sub>2SO<sub>3</sub> </sub> 
+ <br> <a href="https://pubchem.ncbi.nlm.nih.gov/compound/3037556"> 2. Galactose Formula </a> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> 
+ <br> <a href="https://pubchem.ncbi.nlm.nih.gov/compound/ascorbic_acid"> 3. Ascorbic Acid Formula </a> C<sub>6</sub>H<sub>8</sub>O<sub>6</sub>
+
+<h1> <i><u> Mathematical Squares: </u></i></h1>
+ 1. 2<sup>2</sup>=4
+<br> 2. 3<sup>2</sup>=9
+<br> 3. 4<sup>2</sup>=16
+<br> 4. 5<sup>2</sup>=25
+<br> 5. <del>6<sup>2</sup>=35</del> 
+
+</body>
+</html>

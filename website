@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <title>
+	    lujiouoi
+   </title>
+
+
+
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <style type="text/css">
+
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlc7IYdJJqU4xjsVhmlJho8bm7zTVLGWDPqXQYWnhEqacLovHA");
+  
+  
+}
+
+
+img{
+	border-radius:25px;
+	width:192px;
+	height:400px;
+}
+
+.buttonclass
+{
+
+	width:20%;
+	height:600px;
+	
+	float:left;
+	text-align:center;
+}
+
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+
+#one{
+	color:green;
+}
+
+#two{
+	color:grey;
+}
+
+h1{
+	font-family:Tisa;
+}
+
+
+ </style>
+
+
+
+
+
+</head>
+
+
+
+
+
+	<body>
+
+
+		<center><h1>Top Selling Mobiles</h1>
+		<p style="color:grey">39 Items</p></center><hr color="red">
+		<br>
+
+
+
+
+<div class="buttonclass">
+
+<a href="https://www.flipkart.com/mobiles/~asus-zenfone-max-pro-m2/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.DO2G5E00JYZE&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_1_1.dealCard.OMU_INFINITE_DO2G5E00JYZE&cid=DO2G5E00JYZE" target="_blank">
+
+	<img src="https://rukminim1.flixcart.com/image/400/400/jpbic280/mobile/n/8/3/asus-zenfone-max-pro-m2-zb630kl-4d001in-original-imafbcbry5syfwf9.jpeg?q=70">
+<h2>Asus Zenfone Max Pro M2</h2>
+<p id="one">Upto 6 GB RAM|64 GB ROM</p>
+<p id="two">From &#8377;9,999</p>
+</a>
+</div>
+
+
+
+
+
+<div class="buttonclass" >
+	
+<a href="https://www.flipkart.com/mobiles/~redmi-note-6-pro-series/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.DPTDY997WMHF&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_2_1.dealCard.OMU_INFINITE_DPTDY997WMHF&cid=DPTDY997WMHF" target="_blank">
+
+	<img src="https://rukminim1.flixcart.com/image/400/400/jog2nbk0/mobile/d/j/d/mi-redmi-e7t-na-original-imafazxhztrw9gnr.jpeg?q=70">
+	<h2>
+Redmi Note 6 Pro</h2>
+<p id="one">Upto 6 GB RAM|64 GB ROM</p>
+<p id="two">From &#8377;11,999</p>
+</a>
+</div>
+
+<div class="buttonclass" >
+<a href="https://www.flipkart.com/mobiles/~asus-zenfone-max-m2/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.JYIR52P9NVMO&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_3_1.dealCard.OMU_INFINITE_JYIR52P9NVMO&cid=JYIR52P9NVMO" target="_blank">
+
+<img src="https://rukminim1.flixcart.com/image/400/400/jp02t8w0/mobile/z/z/e/asus-zenfone-max-m2-zb632kl-4a004in-original-imafbcafmv6tgqjz.jpeg?q=70">
+<h2>Asus Zenfone Max M2</h2>
+<p id="one">Upto 4 GB RAM|64 GB ROM</p>
+<p id="two">From &#8377;8,499</p>
+</a>
+</div>
+
+<div class="buttonclass" >
+	<a href="https://www.flipkart.com/mobiles/~honor-9n/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.Z02V8GJ6Z3SM&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_4_1.dealCard.OMU_INFINITE_Z02V8GJ6Z3SM&cid=Z02V8GJ6Z3SM" target="_blank">
+<img src="https://rukminim1.flixcart.com/image/400/400/jpvihzk0/mobile/x/b/g/honor-9n-lld-al20-original-imafcysuxztcr4gz.jpeg?q=70">
+<h2>Honor 9N</h2>
+<p id="one">13MP+2MP|16MP Camera</p>
+<p id="two">From &#8377;8,999</p>
+</a>
+</div>
+
+ 
+
+<div class="buttonclass" >
+<a href="https://www.flipkart.com/mobiles/~realme-2-pro/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.I7VOF3MB4DYT&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_5_1.dealCard.OMU_INFINITE_I7VOF3MB4DYT&cid=I7VOF3MB4DYT" target="_blank">
+<img src="https://rukminim1.flixcart.com/image/400/400/jmi22kw0/mobile/x/t/v/realme-2-pro-rmx1801-original-imaf9e3vt9p32yhm.jpeg?q=70">
+<h2>
+Realme 2 Pro
+</h2>
+<p id="one">3500 mAh Battery</p>
+<p id="two">From &#8377;12,990</p>
+</a>
+</div>
+
+<div class="buttonclass" >
+<a href="https://www.flipkart.com/mobiles/~nokia-51-plus/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.JGGTGLXZOV2Y&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_6_1.dealCard.OMU_INFINITE_JGGTGLXZOV2Y&cid=JGGTGLXZOV2Y" target="_blank">
+<img src="https://rukminim1.flixcart.com/image/400/400/jmp79u80/mobile/g/x/r/nokia-5-1-plus-ta-1102-ds-original-imaf9jzhhmfm78d9.jpeg?q=70">
+<h2>
+Nokia 5.1 Plus</h2>
+<p id="one">13MP+5MP|8MP Camera</p>
+<p id="two">Now &#8377;9,999</p>
+</a>
+</div>
+
+<div class="buttonclass" >
+	<a href="https://www.flipkart.com/realme-2-diamond-black-32-gb/p/itmf8maypywnh63w?pid=MOBF85SCHG5ZFYF8&lid=LSTMOBF85SCHG5ZFYF8XYX0VQ&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.YP36N8X0B482&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_7_1.dealCard.OMU_INFINITE_YP36N8X0B482&cid=YP36N8X0B482" target="_blank">
+<img src="https://rukminim1.flixcart.com/image/400/400/jlcmavk0/mobile/y/f/8/realme-2-rmx805-original-imaf8hxyjcncbxpw.jpeg?q=70">
+
+<h2>Realme 2(Diamond Black, 32 GB)</h2>
+<p id="one">Upto 4 GB RAM|64 GB ROM</p>
+<p id="two">Now &#8377;9,499</p>
+</a>
+</div>
+
+<div class="buttonclass" >
+	<a href="https://www.flipkart.com/mobiles/~redmi-6-mobiles/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.29K216URKNGS&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_8_1.dealCard.OMU_INFINITE_29K216URKNGS&cid=29K216URKNGS" target="_blank">
+<img src="https://rukminim1.flixcart.com/image/400/400/jndhrbk0/mobile/n/h/j/mi-redmi-6-na-original-imafa2z2jfaky6bf.jpeg?q=70">
+
+<h2>Redmi 6</h2>
+<p id="one">12MP+5MP|5MP Camera</p>
+<p id="two">From &#8377;6,999</p>
+</a>
+
+</div>
+
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles-accessories/~cs-6ckejpxq2t/pr?sid=tyy&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.YCGSN806AA5C&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_9_1.dealCard.OMU_INFINITE_YCGSN806AA5C&cid=YCGSN806AA5C" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jvtujrk0/mobile/s/b/f/oppo-f11-cph1911-original-imafght4kvkhnzzg.jpeg?q=70">
+	<h2>OPPO F11
+	</h2>
+	<p id="one">4 GB RAM|128 GB ROM</p>
+<p id="two">Just &#8377;17,990</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/apple-iphone-6-space-grey-32-gb/p/itmetmh3hfhnxtcj?pid=MOBETMH3ZYNDPVVC&lid=LSTMOBETMH3ZYNDPVVCO3WYBD&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.FN4DC1KRX9&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_10_1.dealCard.OMU_INFINITE_FN4DC1KRX9&cid=FN4DC1KRX9" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/j2c6du80/mobile/f/2/j/apple-iphone-6-a1586-original-imaetnf2h6gck78p.jpeg?q=70">
+	<h2>Apple iPhone 6 (Space Grey, 32 GB)
+	</h2>
+	<p id="one">4.7" Retina HD Display</p>
+<p id="two">Now &#8377;27,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~xiaomi-pocophone-f1/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.E8C2PO7SHYAJ&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_11_1.dealCard.OMU_INFINITE_E8C2PO7SHYAJ&cid=E8C2PO7SHYAJ" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jl2m7ww0/mobile/f/z/x/xiaomi-pocophone-f1-na-original-imaf8afka7srhfwq.jpeg?q=70">
+	<h2>POCO F1
+	</h2>
+	<p id="one">6 GB RAM|128 GB ROM</p>
+<p id="two">From &#8377;19,999</p>
+</a>
+</div>
+
+
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~infinix-note-5/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_6d28facd-4e02-40bb-87fd-bf612b2d915c_1.R2CYHMLMZLEP&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_infinite_Top%2BSelling%2BMobiles_12_1.dealCard.OMU_INFINITE_R2CYHMLMZLEP&cid=R2CYHMLMZLEP" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jl41nrk0/mobile/m/h/b/infinix-note-5-x604-original-imaf8bdc6uyndkfw.jpeg?q=70">
+	<h2>
+		Infinix Note 5
+	</h2>
+	<p id="one">3 GB RAM|32 GB ROM</p>
+<p id="two">Now &#8377;8,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~samsung-a50-series/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.6WOXPWCFTS8E&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_10_6.4%2522%2BFHD%252B%2BDisplay_6WOXPWCFTS8E&cid=6WOXPWCFTS8E" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jsyyufk0/mobile/b/w/f/samsung-galaxy-a50-sm-a505fzwdins-original-imafefghh95xxr6d.jpeg?q=70">
+	<h2>Samsung A50
+	</h2>
+	<p id="one">6.4" FHD+ Display</p>
+<p id="two">From &#8377;19,990</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~realme-3-series/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.X3TCTMN7QOI8&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_13_6.22%2Binch%2BHD%252B%2BDisplay_X3TCTMN7QOI8&cid=X3TCTMN7QOI8" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jtrjngw0/mobile/2/t/v/realme-3-rmx1825-original-imaferd5uzuyxrsv.jpeg?q=70">
+	<h2>Realme 3
+	</h2>
+	<p id="one">6.2 inch HD+ Display</p>
+<p id="two">From &#8377;8,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~asus-zenfone-5z/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.7B837O3OJCHA&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_12_Upto%2B8%2BGB%2B%257C%2B256%2BGB_7B837O3OJCHA&cid=7B837O3OJCHA" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jj4ln680/mobile/9/x/v/asus-zenfone-5z-zs621kl-2h003in-zs621kl-2h013in-original-imaf6rn9vgzfh7cd.jpeg?q=70">
+	<h2>Asus Zenfone 5Z
+	</h2>
+	<p id="one">Upto 8 GB RAM|256 GB ROM</p>
+<p id="two">From &#8377;24,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~honor-7s/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.MR52AQAJIFP2&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_11_13%2BMP%2B%257C%2B5%2BMP%2BCamera_MR52AQAJIFP2&cid=MR52AQAJIFP2" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jll6xzk0/mobile/4/w/g/honor-7s-na-original-imaf8zwgzmjszkge.jpeg?q=70">
+	<h2>Honor 7s
+	</h2>
+	<p id="one">13MP|5MP Camera</p>
+<p id="two">From &#8377;5,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~redmi-note-5-pro/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.HEEH1ZA81Z6W&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_15_12MP%2B%252B5MP%257C20MP%2BCamera_HEEH1ZA81Z6W&cid=HEEH1ZA81Z6W" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70">
+	<h2>Redmi Note 5 Pro
+	</h2>
+	<p id="one">12MP+5MP|20MP Camera</p>
+<p id="two">From &#8377;12,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/tyy/4io/~cs-evrh2lu69n/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.62MKG895KHZ7&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_16_Upto%2B4GB%2BRAM%257C64GB%2BROM_62MKG895KHZ7&cid=62MKG895KHZ7" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jw9ke4w0/mobile-refurbished/n/t/g/redmi-note-7s-64-d-m1901f71-mi-4-original-imafe48ru3s66sjd.jpeg?q=70">
+	<h2>Redmi Note 7s
+	</h2>
+	<p id="one">4 GB RAM|64 GB ROM</p>
+<p id="two">From &#8377;10,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~samsung-galaxy-on6/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.J9E9XG2VMAL7&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_9_4%2BGB%2BRAM%2B%257C%2B64%2BGB%2BROM_J9E9XG2VMAL7&cid=J9E9XG2VMAL7" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jit64cw0-1/mobile/4/8/h/samsung-galaxy-on6-sm-j600gf-original-imaf6j6zhqa3yfvz.jpeg?q=70">
+	<h2>Samsung Galaxy On6
+	</h2>
+	<p id="one">4 GB RAM|64 GB ROM</p>
+<p id="two">From &#8377;9,990</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~asus-zenfone-max-pro-m1/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3eacc1a7-d4ab-438b-875b-fad984b8363d_1.UV6037BRJAEN&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_14_Upto%2B16MP%252B5MP%2BCamera_UV6037BRJAEN&cid=UV6037BRJAEN" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jh80ia80/mobile/2/b/z/asus-zenfone-max-pro-m1-zb601kl-4h050in-zb601kl-4h060in-original-imaf5a93jh2ph4tn.jpeg?q=70">
+	<h2>Asus Zenfone Max Pro M1
+	</h2>
+	<p id="one">Upto 16MP+5MP Camera</p>
+<p id="two">From &#8377;8,499</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~pixel-3-xl/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.N1ZGTG31XHVS&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_17_6.3%2522%2BQHD%252B%2BDisplay_N1ZGTG31XHVS&cid=N1ZGTG31XHVS" target="_blank">	
+
+	<img src="https://rukminim1.flixcart.com/image/400/400/jn0msnk0/mobile/3/x/h/google-pixel-3-xl-na-original-imaf9szfhubfgdgn.jpeg?q=70">
+	<h2>Google Pixel 3 XL
+	</h2>
+	<p id="one">6.3" QHD+ Display</p>
+<p id="two">Now &#8377;54,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/infinix-smart-3-plus-midnight-black-32-gb/p/itmffnu4txbsjzem?pid=MOBFFNU4KDGYPHQY&lid=LSTMOBFFNU4KDGYPHQYZCOIPL&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.NJ0UY9G442QC&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_20_3500%2BmAh%2BBattery_NJ0UY9G442QC&cid=NJ0UY9G442QC" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jur9nrk0/mobile/h/q/y/infinix-smart-3-plus-x627v-original-imafft7gzykwegax.jpeg?q=70">
+	<h2>Infinix Smart 3 Plus (Midnight Black, 32 GB)
+	</h2>
+	<p id="one">3500 mAh Battery</p>
+<p id="two">Just &#8377;6,999</p>
+</a>
+</div>
+ 
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~infinix-smart-2/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.5G7AIS13PTT0&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_24_Upto%2B3GB%2B%257C%2B32GB%2B_5G7AIS13PTT0&cid=5G7AIS13PTT0" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jo37onk0/mobile/y/t/b/infinix-smart-2-x5515i-original-imafamj7wzjuvv4g.jpeg?q=70">
+	<h2>Infinix Smart 2
+	</h2>
+	<p id="one">13MP|8MP Camera</p>
+<p id="two">From &#8377;6,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~pixel-3a-series/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.I2N8ONKU7NQF&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_22_4%2BGB%2BRAM%2B%257C%2B64%2BGB%2BROM_I2N8ONKU7NQF&cid=I2N8ONKU7NQF" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jvcp9jk0/mobile/u/z/u/google-pixel-3a-g020f-original-imafga3dbtbgrwpk.jpeg?q=70">
+	<h2>Pixel 3A
+	</h2>
+	<p id="one">4 GB RAM|64 GB ROM</p>
+<p id="two">From &#8377;39,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~samsung-galaxy-a70/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.ROEKS3LP5W0A&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_23_6%2BGB%2BRAM%2B%257C%2B128%2BGB%2BROM_ROEKS3LP5W0A&cid=ROEKS3LP5W0A" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/juk4gi80/mobile/8/y/m/samsung-galaxy-a70-sm-a705gzkhins-original-imaffnv6tzdve9ju.jpeg?q=70">
+	<h2>Samsung A70
+	</h2>
+	<p id="one">6 GB RAM|128 GB ROM</p>
+<p id="two">Just &#8377;28,990</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles-accessories/~cs-2qvarn3mhs/pr?sid=tyy&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.8GIN37LC4MO2&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_18_Upto6GB%2BRAM%257C128GB%2BROM_8GIN37LC4MO2&cid=8GIN37LC4MO2" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jw0zr0w0/mobile-refurbished/k/6/b/mi-a2-128-b-mzb7129in-mi-6-original-imaf9c7j9k2ygcby.jpeg?q=70">
+	<h2>Mi A2
+	</h2>
+	<p id="one">Upto 6 GB RAM|128 GB ROM</p>
+<p id="two">From &#8377;11,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/tyy/4io/~cs-4n63jgobr7/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.3TMVYOH1SHSO&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_19_6%2BGB%2BRAM%2B%257C%2B64%2BGB%2BROM_3TMVYOH1SHSO&cid=3TMVYOH1SHSO" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jtkeg7k0/mobile/r/z/y/honor-8x-jsn-l42-original-imafbu58gwyxz9b9.jpeg?q=70">
+	<h2>Honor 8X
+	</h2>
+	<p id="one">6 GB RAM|64 GB ROM</p>
+<p id="two">Just &#8377;15,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/motorola-one-power-black-64-gb/p/itmf9f5epkbmfkce?pid=MOBF9F5EXZBRWBCZ&lid=LSTMOBF9F5EXZBRWBCZRE833U&fm=neo%2Fmerchandising&iid=M_3e59b5e6-e699-4606-b67a-5db14a54858c_1.ISUQA1TYEU3N&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_21_4%2BGB%2BRAM%2B%257C%2B64%2BGB%2BROM_ISUQA1TYEU3N&cid=ISUQA1TYEU3N" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jmjhifk0/mobile/b/c/z/motorola-moto-one-power-na-original-imaf97rzgvpbt4um.jpeg?q=70">
+	<h2>Motorola One Power (Black, 64 GB)
+	</h2>
+	<p id="one">4 GB RAM|64 GB ROM</p>
+<p id="two">Now &#8377;12,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~lenovo-k9/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.7IVHO6AIVXWT&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_30_3%2BGB%2BRAM%2B%257C%2B32%2BGB%2BROM_7IVHO6AIVXWT&cid=7IVHO6AIVXWT" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jnamvm80/mobile/u/8/y/lenovo-k9-padv0031cn-original-imafayegk6nxqtjr.jpeg?q=70">
+	<h2>Lenovo K9
+	</h2>
+	<p id="one">3 GB RAM|32 GB ROM</p>
+<p id="two">Just &#8377;8,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~cs-q5mbb4lxwl/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.FE5FNYS3YE62&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_27_4000%2BmAh%2BBattery_FE5FNYS3YE62&cid=FE5FNYS3YE62" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jvv9zm80/mobile/2/h/r/infinix-s4-x626-original-imafgzk9dbggtumt.jpeg?q=70">
+	<h2>Infinix S4
+	</h2>
+	<p id="one">4000 mAh Battery</p>
+<p id="two">Just &#8377;8,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~samsung-a30/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.GJ5NKFRIHCDK&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_25_6.4%2522%2BFHD%252B%2BDisplay_GJ5NKFRIHCDK&cid=GJ5NKFRIHCDK" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jsyyufk0/mobile/n/5/r/samsung-galaxy-a30-sm-a305fzbfins-original-imafefgg2vhezgr7.jpeg?q=70">
+	<h2>Samsung A30
+	</h2>
+	<p id="one">6.4" FHD+ Display</p>
+<p id="two">Just &#8377;16,990</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/oppo-a5s-red-32-gb/p/itmffhgzsqaczrn4?pid=MOBFFHGZAYCCZZDF&lid=LSTMOBFFHGZAYCCZZDFYKOYE9&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.I1OIVOCDVVEB&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_32_6.2%2522%2BHD%252B%2BDisplay_I1OIVOCDVVEB&cid=I1OIVOCDVVEB" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/juip0nk0/mobile/z/d/f/oppo-a5s-cph1909-original-imaffmvuqzb8hghf.jpeg?q=70">
+	<h2>OPPO A5s (Red, 32 GB)
+	</h2>
+	<p id="one">6.2" HD+ Display</p>
+<p id="two">Now &#8377;9,490</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/mobiles/~oppo-f11-pro/pr?sid=tyy%2C4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.MA88KI4F4VPW&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_28_6.5%2522%2BFHD%252B%2BDisplay_MA88KI4F4VPW&cid=MA88KI4F4VPW" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jvcp9jk0/mobile/a/u/x/oppo-f11-pro-cph1969-original-imafec8h3uqk3fqw.jpeg?q=70">
+	<h2>Oppo F11 Pro
+	</h2>
+	<p id="one">6.5" FHD+ Display</p>
+<p id="two">Just &#8377;24,999</p>
+</a>
+</div>
+
+
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~honor-10-lite/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.RDK1AEET8R8O&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_29_Upto%2B6GB%2BRAM%257C64GB%2BROM_RDK1AEET8R8O&cid=RDK1AEET8R8O" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jqv8ia80/mobile/c/2/6/honor-h10-lite-na-original-imafcskm8qygbqpd.jpeg?q=70">
+	<h2>Honor 10 Lite
+	</h2>
+	<p id="one">Upto 6GB RAM|64GB ROM</p>
+<p id="two">From &#8377;13,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~nokia-6-1-plus-4gb/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.231T6HTG7XJG&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_26_4%2BGB%2BRAM%2B%257C%2B64%2BGB%2BROM_231T6HTG7XJG&cid=231T6HTG7XJG" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jl16s280/mobile/t/v/q/nokia-6-1-plus-na-original-imaf892edytmjfgg.jpeg?q=70">
+	<h2>Nokia 6.1 Plus (4GB, 64 GB)
+	</h2>
+	<p id="one">4 GB RAM|64 GB ROM</p>
+<p id="two">Now &#8377;14,999</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/mobiles/~samsung-galaxy-s10-series/pr?sid=tyy,4io&fm=neo%2Fmerchandising&iid=M_9b6b132a-e22e-4973-a705-adc0d58e8efb_1.1ZKL5LHW4C0H&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_31_Infinity-O%2BDisplay_1ZKL5LHW4C0H&cid=1ZKL5LHW4C0H" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jsdj8nk0/mobile/5/y/g/samsung-galaxy-s10-sm-g973fzwgins-original-imafdys4hrndgfzm.jpeg?q=70">
+	<h2>Samsung S10 Series
+	</h2>
+	<p id="one">Infinity-O Display</p>
+<p id="two">From &#8377;55,900</p>
+</a>
+</div>
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/realme-c2-diamond-black-16-gb/p/itmfgwbaahz6ph9j?pid=MOBFFMG3FGAFZYVE&lid=LSTMOBFFMG3FGAFZYVEPQOEDM&fm=neo%2Fmerchandising&iid=M_1d2008b2-6b62-4a5c-a061-d6e1eb5c4baf_1.KTXWRQ3USDIP&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_35_4000%2BmAh%2BBattery_KTXWRQ3USDIP&cid=KTXWRQ3USDIP" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jur9nrk0/mobile/y/v/e/realme-c2-rmx1941-original-imaffnumfyvfzc8y.jpeg?q=70">
+	<h2>Realme C2 (Diamond Black, 16 GB)
+	</h2>
+	<p id="one">4000 mAh Battery</p>
+<p id="two">Now &#8377;5,999</p>
+</a>
+</div>
+
+
+<div class="buttonclass">
+<a href="https://www.flipkart.com/realme-c1-2019-53n6-store?fm=neo%2Fmerchandising&iid=M_1d2008b2-6b62-4a5c-a061-d6e1eb5c4baf_1.51QJB3J5NUAA&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_34_6.2%2522%2BNotch%2BDisplay_51QJB3J5NUAA&cid=51QJB3J5NUAA" target="_blank">	
+	<img src="https://rukminim1.flixcart.com/image/400/400/jqzitu80/mobile/z/a/f/realme-c1-na-original-imafcvnt4mtzyq2d.jpeg?q=70">
+<h2>
+	Realme C1 (2019)
+</h2>
+<p id="one">6.2" Notch Display</p>
+<p id="two">From &#8377;7,499</p>
+</a>
+</div>
+
+<div class="buttonclass">
+	<a href="https://www.flipkart.com/yu-ace-763s-8263r-store?param=12&fm=neo%2Fmerchandising&iid=M_1d2008b2-6b62-4a5c-a061-d6e1eb5c4baf_1.UMH86Y273IJ8&ppt=dynamic&ppn=dynamic&otracker=dynamic_omu_Top%252BSelling%252BMobiles_33_4000%2BmAh%2BBattery_UMH86Y273IJ8&cid=UMH86Y273IJ8" target="_blank">
+	<img src="https://rukminim1.flixcart.com/image/400/400/jlfh6kw0/mobile/p/d/b/yu-ace-5014-original-imaf8k6y6x3rj9hq.jpeg?q=70">
+<h2>
+	Yu Ace (2 GB)
+</h2>
+<p id="one">4000 mAh Battery</p>
+<p id="two">Now &#8377;5,999</p>
+</a>
+</div>
+
+
+
+
+	</body>
+
+
+
+
+
+
+
+
+
+</html>

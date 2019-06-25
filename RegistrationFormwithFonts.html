@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head><title>Registration Form</title>
+	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	.fixedelement{
+		font-family: 'Arvo', serif;
+		padding: 20px;
+	}
+	.inputelement{
+		font-family: 'Kalam', cursive;
+		
+	}
+	/*.buttonhover:hover{
+		-webkit-transform:scale(2);
+	}
+*/
+table{
+	border: 1px solid black;
+
+	background-color: white;
+}
+body{
+	background-image: linear-gradient(white,grey);
+}
+</style></head>
+
+
+<body>
+	<center><h1>Registration Form</h1></center>
+	<table align=center>
+	<form action="les1html.html" method="get" enctype="form/multidata">
+		<tr>
+			<td class="fixedelement">Name:</td>
+			<td><input class="inputelement" type="text" name="username"></td>
+		</tr>
+		<tr>
+			<td class="fixedelement">Email:</td>
+			<td><input class="inputelement" type="email" name="email"></td>
+		</tr>
+		<tr>
+			<td class="fixedelement">Password:</td>
+			<td><input class="inputelement" type="password" name="password">
+		</tr>
+		<tr>
+			<td class="fixedelement">Address:</td>
+			<td><textarea class="inputelement" name="address" rows="5" cols="50"></textarea>
+		</tr>
+		<tr>
+			<td class="fixedelement">Country:</td>
+			<td><select class="inputelement" >
+				<option value="IN">India</option>
+				<option value="USA">USA</option>
+				<option value="SA">South Africa</option>
+				<option value="ENG">England</option>
+				<option value="FRN">France</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="fixedelement">Gender</td>
+			<td><input class="inputelement" type="radio" name="gender" value="male">Male<br>
+			<input class="inputelement" type="radio" name="gender" value="female">Female<br>
+			<input class="inputelement" type="radio" name="gender" value="other">Other</td>
+		</tr>
+		<tr>
+			<td class="fixedelement">Hobbies:</td>
+			<td><input class="inputelement" type="checkbox" name="hobbies" value="Cricket">Cricket
+				<input class="inputelement" type="checkbox" name="hobbies" value="Football">Football<br>
+				<input class="inputelement" type="checkbox" name="hobbies" value="Carrom">Carrom
+				<input class="inputelement" type="checkbox" name="hobbies" value="Chess">Chess<br>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="fixedelement">Select Image:</td>
+			<td><input class="inputelement" type="file" name="photo"></td>
+		</tr>
+		<tr>
+			<td class="fixedelement buttonhover"><input type="Submit" name="Submit"></td>
+			<td class="fixedelement buttonhover"><input type="Reset"></td>
+
+		</tr>
+	</form>
+</table>
+</body>
+</td></html>

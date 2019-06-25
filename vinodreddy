@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>vinod</title>
+</head>
+<body>
+	this will print in new line
+	<div>this is new line</div>
+	<p>this is<span style= "color:blue">this is seetha</span></p>
+</body>
+</html>
+<!-- 	<div style="color:blue ;background-color:yellow">this is new line</div>-->

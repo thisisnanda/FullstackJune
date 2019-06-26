@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<!-- <meta http-equiv="refresh" content="2"> -->
+	<meta name="author" content="Rohit Sharma">
+	<meta name="description" content="Form Page">
+	<meta name="keywords" content="input elements">
+	<meta name="viewport" content="width=device-width,initial-scale=2.0">
+
+<style>
+body
+{
+	/*background: linear-gradient(to right,darkorange,white);        /* #e2f0f1    #2aa1af*/
+	background:url('img/a1.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+
+th{
+
+	color:black;
+}
+
+.reg{
+     color:white  ! important;
+     background-color: #ff8357;
+     border-radius: 20px;
+     padding: 15px;
+}
+#fill{
+	color:white;
+	background-color: #ff8357;
+     border-radius: 20px;
+     padding: 10px;
+     box-shadow: 12px 12px 5px grey;
+     /*z-index: -1;*/
+
+}
+
+#id2{
+
+	padding: 15px;
+
+	
+}
+
+#id3{
+
+	margin-left: 30%;
+	border-radius: 20px;
+	width: 20%;
+	padding: 10px;
+	background-color: orange;
+
+}
+#id4{
+	margin-left: 2%
+	width: 30%;
+	padding: 10px;
+	border-radius: 20px;
+	background-color:skyblue;
+}
+#tb{
+background:rgba(255,255,255,.5);
+box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	padding: 20px;
+	border-spacing: 20px;
+	border-radius: 15px;
+	margin-top: -600px;
+	/*margin-left: 1%;*/
+	border:5px groove lightgreen;
+
+
+}
+/*#vid{*/
+
+	/*position: fixed;     or absolute*/
+	/*top: 50%;*/
+	/*left:50%;*/
+	/*transform:translate(-50%,-50%);*/
+/*}*/
+
+#vid{
+	margin-left: 68%;
+	margin-top: 21%;
+    transform:translate(-50%,-50%);
+    border:5px groove lightgreen;
+    padding: 5px;
+       width: 40%;
+}
+#vidclip{
+position:fixed;             /*   by default relative*/
+margin-left:60%;                        /* fixed never effect anyone it is visible on another*/
+margin-top: 3%; 
+/*background-color: lightgreen;*/
+background:rgba(255,255,255,.5);
+box-shadow: 0 5px 15px rgba(0,0,0,.5);
+border:5px double black;
+border-radius: 15px;
+padding: 5px;
+/*box-shadow: 10px 10px 5px grey;*/
+
+/*******************************Animate**********************************8*/
+animation-name: example;
+ animation-duration: 2s;
+ position: absolute;  
+  animation-delay: 0s;  
+  /* animation-delay: -3s;     */      
+    animation-iteration-count: 1;    /* use infine also */ 
+
+}
+ 
+@keyframes example {
+  0%   {background-color: lightgreen; left:10px; top:28%;}
+  25%  {background-color: lightgreen; left:10px; top:23%;}
+  50%  {background-color: lightgreen; left:10px; top:33%;}
+  75%  {background-color: lightgreen; left:10px; top:23%;}
+  100% {background-color: lightgreen; left:10px; top:28%;}
+}
+
+</style>
+
+<script type="text/javascript">
+	function validate()
+	{
+		if (document.form.fn.value=="") {
+			document.getElementById('fnid').innerHTML="FN is empty";
+			document.form.fn.focus();
+			return false;
+		}
+		else{
+			document.getElementById('fnid').innerHTML="";
+			
+		}
+
+		if (document.form.pass.value=="") {
+			document.getElementById('passid').innerHTML="Please pass";
+			document.form.pass.focus();
+			return false;
+		}
+		else{
+			document.getElementById('passid').innerHTML="";
+			
+		}
+	}
+
+
+</script>
+
+</head>
+<body><center>
+<h1><span class="reg" style="color:orange;">Registration form </span></h1><hr>
+<h2><div id="fill">Fill all the fields</div></h2>
+</center>
+<h1 id="vidclip"><span style="size: 20px;">Video Clip</span></h1>
+
+<video width="50%" height="300" controls="on" loop="off" poster="img/2.png" id="vid">
+<source src="vid/fearless.mp4" type="video/mp4">
+</video>
+
+<form method="get" action="basic_tags.html" enctype="form/multidata"  onsubmit="return validate()" name="form">
+<table id="tb"   width="38%">
+		<tr>
+			<th>First Name:</th>
+			<td><input type="text" name="fn"  placeholder="******"  autocomplete="on"  ><span style="color:red;" id="fnid"></span></td>
+		</tr>
+
+		<!-- <tr>
+			<th> Hidden Last Name:</th>
+			<td><input type="text" name="lastname" value="Hidden" autocomplete="on" hidden="" ></td>
+		</tr> -->
+
+		<tr>
+			<th>Last Name:</th>
+			<td><input type="text" name="lastname" placeholder="overwrite it " autofocus="" autocomplete="on" ></td>
+		</tr>
+
+		<tr>
+			<th>Password:</th>
+			<td><input type="Password" name="pass" placeholder="*******" autocomplete="on"  ><span id="passid"></span></td>
+		</tr>
+
+		<tr>
+			<th>Gender:</th>
+			<td><input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+			</td>
+		</tr>
+
+		<tr>
+			<th>City:</th>
+			<td>
+			<select multiple="" required="">   <!--  -->
+				<option disabled="" >Choose</option>
+				<option>India</option>
+				<option>US</option>
+				<option>UK</option>
+				<option>Dubai</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>Contact no.</th>
+			<td>
+				<input type="text" name="Telephone" maxlength="2" size="1"  disabled="" placeholder="+91"><input type="number" name="Telephone">
+			</td>
+		</tr>
+
+
+		<!-- <tr>
+			<th>Choose File:</th>
+			<td>
+				<input type="file" name="file">
+			</td>
+		</tr>
+
+		<tr>
+			
+			<th>Select Color:</th>
+				<td>
+					<input type="color" name="color">
+				</td>
+			
+		</tr>
+		<tr>
+			
+			<th>Description:</th>
+				
+				<td>
+					<textarea rows="5" cols="30">Right Here...</textarea>
+				</td>
+			
+		</tr>
+
+		
+
+	<tr>
+		<th>URL</th>
+		<td><input type="url" name="url"></td>
+	</tr>	
+<tr>
+			<th>Contact no.</th>
+			<td>
+				<input type="text" name="Telephone" maxlength="2" size="1"  disabled="" placeholder="+91"><input type="number" name="Telephone">
+			</td>
+		</tr>
+
+<tr> -->
+		<td colspan="2" id="id2"><input type="submit" name="" id="id3">
+		<input type="reset" name="" id="id4"></td>
+		
+	</tr>	
+
+
+	</table>
+	
+</form>
+
+<br>
+
+
+</body>
+</html>

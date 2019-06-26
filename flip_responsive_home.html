@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Kart</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+   <link href="https://fonts.googleapis.com/css?family=Saira:400,700&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		*{
+			box-sizing: border-box;;
+		}
+		body{
+			background: lightgrey;
+		}
+
+
+		/*#navid{
+			background: teal;
+			position: sticky !important;
+			margin-top: 10px;
+
+		}*/
+
+		.nav{
+			background: teal;
+			background-opacity:0.5;
+			/*opacity: 0.5;*/
+			position: sticky !important; 
+			top:1px !important;
+			height: 50px !important;
+			z-index: 1 !important;
+
+
+		}
+
+
+		input{
+			border-radius: 10px;
+			text-align: center;
+			margin-left: 30px;
+			border:2px solid #fa897b;
+			color: black;
+
+		}
+
+		#search{
+			width: 40px;
+			height: 23px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow:ellipsis;	   /*  means : ... 3 dots     */
+		}
+
+	    #search:hover{
+	    	overflow:visible;
+
+	    	height: 20px;
+	    	width: 200px;
+	    	display: inline-block;
+	    	background: transparent;
+	    	/*border-radius: 50px;*/
+	    	/*border:1px solid white;*/
+	    	text-align: center;
+
+	    }
+
+	    #go{
+	    	color:white;
+	    	background:transparent;
+	    	border:1px solid #fa897b;
+	    }
+
+         
+
+		#go:hover{
+			color: white;
+			background: #fa897b;
+		}
+		#links{
+			float:right;
+
+		}
+		a{
+			color: white;
+			
+		}
+		a:hover{
+			background:#fa897b !important; 
+			color: white;
+		}
+
+	
+	</style>
+
+
+	
+</head>
+<body>
+	
+	
+	<div class="nav"  style=" clear:both;width:100%; padding: 20px;">
+	    <span style="width: 130px !important;height: auto;margin-left:25%; color: white; font-size: 30px; font-family: 'Saira', sans-serif;">Your Cart</span>
+		<!-- <img src="logo.png" style="width: 130px !important;height: auto;margin-left:25%;"> -->
+		<i class="fas fa-search" id="search" style=" color: white; margin-left: 1%; font-size: 20px; "><input type="text" name="search" placeholder="Search..." >
+		<button style="border-radius: 15px;" id="go">Go</button>
+		</i>
+		<!-- <input type="text" name="search" placeholder="Search..." > -->
+		</div>
+		
+
+
+		<section class="links">
+			<div class="container-fluid" style="background:#fa897b;">
+				<div class="row" id="links">
+					<div class="col-md-12">
+						<ul class="nav nav-tabs">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"  id="drop">Dropdown</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#" style="color: black">Action</a><br>
+									<a class="dropdown-item" href="#" style="color: black">Another action</a><br>
+									<a class="dropdown-item" href="#" style="color: black">Something else here</a>		
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Link</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr>
+
+			<section class="fullslider">
+				<div class="container">
+					<div class="row" id="slider">
+						<div class="col-md-4">
+							
+							<img src="shop1gif.gif"  height="320" width="100%" style="background-attachment: fixed;">
+						</div>
+
+						<div class="col-md-4">
+
+							<img src="cartgif.gif"  height="320" width="100%" style="background-attachment: fixed;">
+						</div>
+
+						<div class="col-md-4">
+
+						<img src="pay1.gif" height="320" width="100%" style="background-attachment: fixed;">
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+
+			<hr>
+			<h1 style="font-size: 25px; font-weight: bold; margin-left: 3%;">Deals of the Day</h1>
+			<hr>
+
+			<section class="manual">
+				<div class="container-fluid">
+					<div class="row" id="manual">
+						<div class="col-md-2">
+							
+							<a href="flipkart_Rohit Sharma.html"><img src="flip1.jpg"  height="250" width="100%"  >
+						</div></a>
+
+						<div class="col-md-2">
+
+							<a href="flipkart_Rohit Sharma.html"><img src="flip2.jpeg"  height="250" width="100%";>
+						</div></a>
+
+						<div class="col-md-2">
+
+						<a href="flipkart_Rohit Sharma.html"><img src="flip3.jpeg" height="250" width="100%" ></a>
+						</div>
+						<div class="col-md-2">
+							
+							<a href="flipkart_Rohit Sharma.html"><img src="flip4.jpg"  height="250" width="100%"  ></a>
+						</div>
+
+						<div class="col-md-2">
+
+							<a href="flipkart_Rohit Sharma.html"><img src="flip5.jpeg"  height="250" width="100%"></a>
+						</div>
+
+						<div class="col-md-2">
+
+						<a href="flipkart_Rohit Sharma.html"><img src="flip6.jpeg" height="250" width="100%" ></a>
+						</div>
+						
+
+					</div>
+				</div>
+			</section>
+
+			
+			<section class="footer">
+				<div class="container-fluid">
+					<div class="row" id="footer">
+						<div class="col-md-12">
+							<h3 style="text-align: right;">Copyright &copy</h3>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+		</body>
+		</html>

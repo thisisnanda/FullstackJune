@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css properties</title>
+	<style type="text/css">
+body::after{
+
+	content: "";
+	background: url(img/2.png);
+	/*margin:0;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index:-1 ;
+	opacity: .5;
+}
+	
+		a {
+			color:purple;
+			size: 30%;
+		}
+
+		a:link{
+			color:pink;
+
+		}
+        
+        a:visited{
+        	color:red;
+        }
+
+		a:hover{
+			color:green;
+			text-decoration: none;
+			font-size:19px;
+			font-weight: bold;
+			display: inline-block;
+
+	background-color: skyblue;
+     border-radius: 20px;
+     padding: 8px;
+     box-shadow: 12px 12px 5px grey;
+     /*position: relative;*/
+		}
+
+		a:active{
+			color:black;
+		}
+
+		input:checked{
+			color:red;
+			height: 20px;
+			width: 20px;
+		}
+
+		input:disabled{
+			color:green;
+		}
+
+		p:nth-child(2){
+			color:red;
+		}
+
+		h2::selection{
+			color:red;
+		}
+
+		h3::after{
+			           content: "#";
+}
+.div1{
+	float: left;
+	border:1px solid lightgreen;
+	width: 40%;
+	text-align: center;
+	background: orange;
+		opacity: 0.5;
+}
+.div2{
+	float:right;
+	border:1px solid lightgreen;
+	width:40%;
+	text-align: center;
+		background: orange;
+
+		}
+
+
+.pos{
+	border:1px solid red;
+}
+
+.a{
+	background: yellow;
+	opacity: 0.5;
+	position: sticky;
+		top:10px;
+
+}
+.b{
+	background: coral;
+	/*position:;*/
+
+	/*margin-left: 20%;
+	margin-top: 4%;*/
+
+}
+
+.c{
+	background: teal;
+	filter: blur(7px);
+	position: fixed;
+		/*top:10px;*/
+}
+.d{
+	background: violet;
+}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+<h1>Float property</h1>
+<div class="div1">Div 1
+</div>
+<div style="position:absolute;left:40%; width: 20%;border:1px solid blue;text-align: center; background: purple;">njbjbnjbnjnjn</div>
+
+<div class="div2">Div 2
+</div>
+<br>
+<h1>Position property</h1>
+<div class="pos a"  style=" clear:both;width:100%;"><img src="logo.png" style="width: 130px !important;height: auto;margin-left:15%;">
+						<input type="text" name="search" placeholder="Search..." >
+						<button style="border-radius: 15px;" id="go">Go</button></div>
+<div class="pos b" style=" clear:both;width:100%;"> Div 2</div>
+<div class="pos c" style=" clear:both;width:100%;"> div 3</div>
+<div class="pos d" style=" clear:both;width:100%;">Div 4</div>
+
+<br><br><br><br>
+<h1>Pseudo classes</h1>
+<h2> 4 states of Anchor</h2>
+<a href="form.html">Visited</a><br>
+
+<!-- <a href="basic_tags.html">Not visited</a> -->
+
+<h2>Pseudo class for input fields</h2>
+<input type="checkbox" name="check" value="checked">Check<br>
+<input type="text" name="" value="Disabled" disabled>
+
+<h2>Pseudo classes for paragraph</h2>
+<div>
+<p>P1 </p>
+<p>P2</p>
+<p>P3</p></div>
+
+
+<h2>Pseudo elements</h2>
+<div>
+<p>P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P
+1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P
+1P1P1P1P1P1P1</p>
+</div>
+
+<h3>After</h3>
+
+
+
+</body>
+</html>

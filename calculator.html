@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+
+	<script type="text/javascript">
+		function fno(value1){
+			if (document.getElementById('fn').value=="") {
+				document.getElementById('fn').value=value1;
+			}
+			else{
+				input1=document.getElementById('fn').value + value1;
+			    document.getElementById('fn').value=input1;
+
+			}
+		}
+
+		function sno(value2){
+			if (document.getElementById('sn').value=="") {
+				document.getElementById('sn').value=value2;
+			}
+			else{
+				input2=document.getElementById('sn').value + value2;
+			    document.getElementById('sn').value=input2;
+
+			}
+		}
+
+		function add(){
+			var a=document.getElementById('fn').value;
+			var b=document.getElementById('sn').value;
+			// var sum=a+b;     // it will concatenate not add because all input values are string
+			var sum=parseInt(a) + parseInt(b);
+			alert('Result is:' +sum)
+
+			document.getElementById('fn').value=""
+			document.getElementById('sn').value=""
+		}
+
+function sub(){
+			var a=document.getElementById('fn').value;
+			var b=document.getElementById('sn').value;
+			// var sum=a+b;     // it will concatenate not add because all input values are string
+			var sum=parseInt(a) - parseInt(b);
+			alert('Result is:' +sum);
+
+			document.getElementById('fn').value="";
+			document.getElementById('sn').value="";
+
+		}
+		function mul(){
+			var a=document.getElementById('fn').value;
+			var b=document.getElementById('sn').value;
+			// var sum=a+b;     // it will concatenate not add because all input values are string
+			var sum=parseInt(a) * parseInt(b);
+			alert('Result is:' +sum);
+
+			document.getElementById('fn').value="";
+			document.getElementById('sn').value="";
+
+		}
+		function div(){
+			var a=document.getElementById('fn').value;
+			var b=document.getElementById('sn').value;
+			// var sum=a+b;     // it will concatenate not add because all input values are string
+			var sum=parseInt(a) / parseInt(b);
+			alert('Result is:' +sum);
+
+			document.getElementById('fn').value="";
+			document.getElementById('sn').value="";
+
+		}
+
+
+	</script>
+	<style type="text/css">
+
+	body
+	{
+			/*background: rgba(0,25,70,0.8);*/
+		/*background: rgba(30,5,255,0.8);*/
+		background: lightgrey;
+	}
+
+
+
+
+		h1{
+			color: darkorange;
+			text-align: center;
+			font-size: 50px;
+			letter-spacing: 3px;
+			text-shadow: 0px 2px grey;
+		}
+
+
+		button{
+			padding: 10px 20px 10px 20px ;
+			 border-radius: 20px;
+			 font-weight: bold;
+			  background: rgba(0,0,255,.5);
+			  color: white;
+		}
+
+		button:hover{
+			color: orange;
+			 font-size:19px; 
+
+		}
+		input{
+			border:;
+			border-bottom: 1px solid lightgreen;
+			font-size: 16px;
+			width: 12%;
+			
+		}
+
+		div{
+			/*background: rgba(0,255,200,0.8);*/
+			/*float: left;*/
+			top: 50%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+			position: absolute;
+			display:inline-flex;
+
+
+			/*background:grey;*/
+			/*opacity: 0.5*/
+		}
+
+		#cal{
+			top: 69%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+			position: absolute;
+			/*display:inline-flex;*/
+
+		}
+
+		#fn{
+			top: 35%;
+			left: 43%;
+			transform:translate(-50%,-50%);
+			position: absolute;
+	     	background: rgba(222,34,34,0.3);
+		}
+
+		#sn{
+			top: 35%;
+			left: 57%;
+			transform:translate(-50%,-50%);
+			position: absolute;
+			background: rgba(255,255,34,0.3);
+		}
+
+
+
+	</style>
+</head>
+<body>
+<h1>Calculator</h1><br><br>
+<input type="text" name="fn" placeholder="Input first no"  id="fn">
+
+<input type="text" name="sn" placeholder="Input second no" id="sn">
+<div id="btn">
+<table>
+<tr>
+	<td><button onclick="fno(1)">1</button></td>
+	<td><button onclick="fno(2)">2</button></td>
+	<td><button onclick="fno(3)">3</button></td>
+</tr>
+<tr>
+	<td><button onclick="fno(4)">4</button></td>
+	<td><button onclick="fno(5)">5</button></td>
+	<td><button onclick="fno(6)"> 6</button></td>
+</tr>
+<tr>
+	<td><button onclick="fno(7)">7</button></td>
+	<td><button onclick="fno(8)">8</button></td>
+	<td><button onclick="fno(9)">9</button></td>
+</tr>
+<tr>
+	<td><button onclick="fno(0)">0</button></td>
+	<td colspan="0"><button style="font-weight: bold;color: red ">!</button></td>
+	<td colspan="0"><button style="font-weight: bold; color: red">!</button></td>
+	<td></td>
+	<td></td>
+	<td></td><td></td>
+</tr>
+</table>
+<br>
+
+<br>
+<br>
+<table>
+
+
+<tr>
+	<td><button onclick="sno(1)">1</button></td>
+	<td><button onclick="sno(2)">2</button></td>
+	<td><button onclick="sno(3)">3</button></td>
+</tr>
+<tr>
+	<td><button onclick="sno(4)">4</button></td>
+	<td><button onclick="sno(5)">5</button></td>
+	<td><button onclick="sno(6)">6</button></td>
+</tr>
+<tr>
+	<td><button onclick="sno(7)">7</button></td>
+	<td><button onclick="sno(8)">8</button></td>
+	<td><button onclick="sno(9)">9</button></td>
+</tr>
+<tr>
+	<td><button onclick="sno(0)">0</button></td>
+	<td colspan="0"><button style="font-weight: bold; color: red">!</button></td>
+	<td colspan="0"><button style="font-weight: bold; color: red">!</button></td>
+
+</tr>
+</table>
+
+
+
+</div>
+<div id="cal">
+	
+<button onclick="add()" style="display: block;">Add</button>
+<button onclick="sub()" style="display: block;">Sub</button>
+<button onclick="mul()" style="display: block;">Mul</button>
+<button onclick="div()" style="display: block;">Div</button>
+
+</div>
+
+</body>
+</html>

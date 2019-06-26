@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+<style type="text/css">
+
+	body
+	{
+		
+		background-image:url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	}
+
+span
+{
+	color:red;
+}
+
+table.center
+{border-radius: 25px;
+	border:1px solid gray;
+	width:40%;
+	height:46%;
+padding:13px;
+    position:absolute;
+           top:30%;
+           left:30%; 
+
+
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+function validate()
+{
+	
+if(document.register.firstname.value=="")
+{
+	document.getElementById("firstnameid").innerHTML="Please Enter Your First Name";
+	document.register.firstname.focus();
+	return false;
+}
+
+if(document.register.lastname.value=="")
+{
+	document.getElementById("lastnameid").innerHTML="Please Enter Your Last Name";
+	document.register.lastname.focus();
+	return false;
+}
+
+if(document.register.emailaddress.value=="")
+{
+	document.getElementById("emailaddressid").innerHTML="Please Enter Your Email Address";
+	document.register.emailaddress.focus();
+	return false;
+}
+
+if(document.register.passsword.value=="")
+{
+	document.getElementById("passwordid").innerHTML="Please Enter Your Password";
+	document.register.passsword.focus();
+	return false;
+}
+
+
+if(document.register.confirm.value=="")
+{
+	document.getElementById("confirmid").innerHTML="Please Enter Your Password Again";
+	document.register.confirm.focus();
+	return false;
+}
+
+
+
+//PASSWORD VALIDATION
+var password=document.getElementById("passsword").value;
+
+	var confirmpassword=document.getElementById("confirm").value;
+
+if(password!=confirmpassword)
+{
+	alert("passwords do not match");
+	return false;
+}
+
+
+return true;
+}
+
+
+</script>
+
+
+</head>
+
+
+
+<body>
+<center>
+<h1>Create Your Account</h1>
+</center>
+
+<form name="register" onsubmit="return validate()" action="https://sayingimages.com/wp-content/uploads/welcome-to-our-group-meme.jpg" target="_blank">
+
+
+
+
+
+<table class="center">
+
+<tr>
+	<td>
+<b>First Name:</b></td> 
+<td><input type="text" name="firstname" value="" placeholder="First name">
+<span id="firstnameid"></span></td>
+</tr>
+
+<tr><td>
+<b>Last Name:</b></td>
+<td> 
+<input type="text" name="lastname" value="" placeholder="Last name">
+<span id="lastnameid"></span></td>
+</tr>
+
+<tr><td>
+<b>Email Address:</b></td><td> 
+<input type="email" name="emailaddress" value="" placeholder="Email Address">
+<span id="emailaddressid"></span></td>
+</tr>
+
+
+<tr><td>
+<b>Password:</b></td><td> 
+ <input type="password" id="passsword" value="" placeholder="Password">
+ <span id="passwordid"></span></td>
+</tr>
+
+<tr><td>
+<b>Confirm Password:</b></td><td> 
+ <input type="password" id="confirm" value="" placeholder="Confirm Password">
+ <span id="confirmid"></span></td>
+</tr>
+
+
+
+
+<tr>
+<td>
+ <input type="submit" name="submit" value="Register">
+</td>
+</tr>
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div>First Name: 
+<input type="text" name="firstname" value="" placeholder="First name">
+<span id="firstnameid"></span>
+</div>
+
+
+<div>Last Name: 
+<input type="text" name="lastname" value="" placeholder="Last name">
+<span id="lastnameid"></span>
+</div>
+
+
+<div>Email Address: 
+<input type="email" name="emailaddress" value="" placeholder="Email Address">
+<span id="emailaddressid"></span>
+</div>
+
+
+
+<div>Password: 
+ <input type="password" id="passsword" value="" placeholder="Password">
+ <span id="passwordid"></span>
+</div>
+
+
+<div>Confirm Password: 
+ <input type="password" id="confirm" value="" placeholder="Confirm Password">
+ <span id="confirmid"></span>
+</div>
+-->
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+
+
+
+</html>

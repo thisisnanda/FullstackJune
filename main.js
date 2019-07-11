@@ -44,7 +44,6 @@ function renderHTML(data){
 
         display += ".</p>";
     }
-  
     dataContainer.insertAdjacentHTML("beforeend", display);
 }
 

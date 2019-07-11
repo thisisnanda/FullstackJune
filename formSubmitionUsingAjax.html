@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ajax Form Submition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+        <meta name="author" content="Nicodemus Ngufuli">
+
+       
+
+        <script type="text/javascript">
+
+        // form validation begins here
+        function submitFunction(){
+            if(document.formSubmition.first_name.value == ""){
+                document.getElementById("first_name_ide").innerHTML = "Please enter your first name";
+                document.formSubmition.first_name.focus();
+                return false;
+            }
+            if(document.formSubmition.last_name.value == ""){
+                document.getElementById("last_name_ide").innerHTML = "Please enter your last name";
+                document.formSubmition.last_name.focus();
+                return false;
+            }
+            if(document.formSubmition.e_mail.value == ""){
+                document.getElementById("e_mail_ide").innerHTML = "Please enter your email ID";
+                document.formSubmition.e_mail.focus();
+                return false;
+            }
+            if(document.formSubmition.pass_word.value == ""){
+                document.getElementById("pass_word_ide").innerHTML = "Please enter your password";
+                document.formSubmition.pass_word.focus();
+                return false;
+            }
+            if(document.formSubmition.gender-g.value == ""){
+                document.getElementById("gender_ide").innerHTML == "Please select your gender";
+                document.formSubmition.gender-g.fucus();
+                return false;
+            }
+            if(document.formSubmition.dat_e.value == ""){
+                document.getElementById("date_ide").innerHTML = "Please select your date of birth";
+                document.formSubmition.dat_e.focus();
+                return false;
+            }
+        }
+
+
+        //ajax post requerst begins here
+
+
+        // if(window.XMLHttpRequest){
+        //     var ng = new XMLHttpRequest();
+        // }
+        // else{
+        //     var ng = ActiveXObject("Microsoft.XMLHTTP");
+        // }
+        // var 
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <form  name="formSubmition"  onsubmit="return submitFunction()" action="formSubmitionUsingAjax.html" method="GET">
+                <table>
+                    <thead>
+
+                    </thead>
+
+                    <tbody>
+                        <!-- first name goes here -->
+                        <tr>
+                            <td><label for="">First name: </label></td>
+
+                            <td><input class="" type="text" name="first_name" value="" placeholder="Nicodemus"><span id="first_name_ide"></span></td>
+                        </tr>
+                        <!-- surname goes here  -->
+                        <tr>
+                            <td><label for="">Last name: </label></td>
+
+                            <td><input class="" type="text" name="last_name" value="" placeholder="Ngufuli"><span id="last_name_ide"></span></td>
+                        </tr>
+
+                        <!-- email address goes here -->
+                        <tr>
+                            <td><label for="">Email: </label></td>
+
+                            <td><input class="" type="email" name="e_mail" value="" placeholder="nico@ngufuli.com"><span id="e_mail_ide"></span></td>
+                        </tr>
+                        <!-- password goes here -->
+                        <tr>
+                            <td><label for="">Password: </label></td>
+
+                            <td><input class="" type="password" name="pass_word" value="" placeholder="password"><span id="pass_word_ide"></span></td>
+                        </tr>
+                        <!-- gender goes here -->
+                        <tr>
+                            <td><label for="">Gender: </label></td>
+
+                            <td><input class="" type="radio" name="gender-g" value="" placeholder="">Male</td>
+                            <td><input class="" type="radio" name="gender-g" value="" placeholder="">Female</td>
+                            <td><input class="" type="radio" name="gender-g" value="" placeholder="">Other<span id="gender_ide"></span></td>
+                        </tr>
+
+                        <!-- birth date goes here -->
+                        <tr>
+                            <td><label for="">Birth date: </label></td>
+
+                            <td><input class="" type="date" name="dat_e" value="" placehoder=""><span id="date_ide"></span></td>
+                        </tr>
+
+                        <!-- submition button goes here -->
+                        <tr>
+                           <td><button class="pure-button pure-button-primary" type="submit" onclick="submition()">Submit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

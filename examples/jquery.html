@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- jquery concept -->
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script type="text/javascript">
+		// function remove()
+		// {
+		// 	document.getElementById('ren').style='display:none';
+		// }
+		$(document).ready(function()
+		{
+			$("button").click(function(){
+				$("#ren").toggle();
+			}
+				)
+		})
+	</script>
+</head>
+<body>
+	<div id="ren">
+sample
+</div>
+<button>click</button>
+<!-- <button onclick="remove()">click</button> -->
+</body>
+</html>

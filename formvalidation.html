@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nicodemus Ngufuli">
+    <style>
+        .wholePageColor {
+            background-image: radial-gradient(33deg, #ccffff, #cceeee, #ccbbbb);
+        }
+    </style>
+
+    <script type="text/javascript">
+        function validation() {
+            if (document.register.first_name.value == "") {
+                document.getElementById("first_name_ide").innerHTML = "Please fill in your name";
+                document.register.first_name.focus();
+                return false;
+            }
+
+            if (document.register.sur_name.value == "") {
+                document.getElementById("sur_name_ide").innerHTML = "Please fill in your surname";
+                document.register.sur_name.focus();
+                return false;
+            }
+
+            if (document.register.email_id.value == "") {
+                document.getElementById("email_id_ide").innerHTML = "Please fill in your email address";
+                document.register.email_id.focus();
+                return false;
+            }
+
+            if (document.register.pass_word.value == "") {
+                document.getElementById("pass_word_ide").innerHTML = "Please fill in your password";
+                document.register.password.focus();
+                return false;
+            }
+
+            if (document.register.gender_g == "") {
+                document.getElementById("gender_g_ide").innerHTML = "Please select your gender";
+                return false;
+            }
+
+            if (document.register.file_upload.value == "") {
+                document.getElementById(file_id_ide).innerHTML = "Please upload a file";
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body class="wholePageColor">
+    <div>
+        <form name="register" onsubmit="return validation()" action="javascriptFormValidation.html" method="GET">
+            <table>
+
+                <tbody>
+                    <tr>
+                        <td><label for="">First name </label></td>
+
+                        <td><input class="" type="text" name="first_name" value="" placeholder="" /><span
+                                id="first_name_ide"></span></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Surname </label></td>
+
+                        <td><input class="" type="text" name="sur_name" value="" placeholder="" /><span
+                                id="sur_name_ide"></span></td>
+                    </tr>
+                    &nbsp;
+                    <tr>
+                        <td><label for="">Email </label></td>
+
+                        <td><input class="" type="email" name="email_id" value="" placeholder="" /><span
+                                id="email_id_ide"> </span></td>
+                    </tr>
+                    &nbsp;
+                    <tr>
+                        <td><label for="">Password </label></td>
+
+                        <td><input class="" type="password" name="pass_word" value="" placeholder="" /><span
+                                id="pass_word_ide"></span></td>
+                    </tr>
+                    &nbsp;
+                    <tr aria-rowspan="">
+                        <td><label for="">Gender</label></td>
+
+                        <td><input class="" type="radio" name="gender_g" value="" />Male</td>
+                        <td><input class="" type="radio" name="gender_g" value="" />Female</td>
+                        <td><input class="" type="radio" name="gender_g" value="" />Other</td><span
+                            id="gender_g_ide"></span>
+
+                    </tr>
+                    &nbsp;
+                    <tr>
+                        <td><label>Submit your<br /> Identification Card in <strong>JPEG</strong> or
+                                <strong>PDF</strong> format</label></td>
+
+                        <td><input class="" type="file" name="file_upload" value="" /><span id="file_id_ide"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <input type="submit" name="submit" value="Register"></td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

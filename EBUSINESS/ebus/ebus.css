@@ -1,0 +1,62 @@
+body
+	{
+	font-family: 'Indie Flower', cursive;
+	background: url(pic2.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+	}
+	.center 
+	{
+		margin: auto;
+		max-width: 600px;
+		max-height: auto;
+		padding: 15px;
+		border: 1px solid rgb(26, 121, 37);
+		border-radius: 10px;
+	}
+	.margin-row
+	{
+		margin-top: 200px;
+	}
+	.signupInLogin
+	{
+  text-align: justify; 
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  color: #0C0C0C;
+}
+.wid
+{
+	width: 140px;
+	color:#0C0C0C;
+	text-align:center; 
+}
+.text1
+{
+	text-align: justify;
+	text-decoration: none;
+	 font-size:15px;
+	  font-weight: bold;
+}
+.text1:hover 
+{
+	text-align: justify;
+	text-decoration: none;
+	color:rgb(0, 0, 255);
+	 font-size:15px;
+
+}
+.wid:hover
+{
+	width: 140px;
+	background-color : rgba(0, 0, 255,.5);
+	color:white;
+}
+input:invalid
+ {
+  border: 2px solid red; 
+  color: red;
+  text-decoration: line-through;
+ }

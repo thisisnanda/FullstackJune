@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> javascript</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	function facebook()
+	{
+	if(window.XMLHttpRequest)
+	{
+		fb = new window.XMLHttpRequest();
+	}
+	else
+	 {
+		fb = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	fb.open("GET","https://reqres.in/api/products/3",true);
+	fb.send(); 
+
+	fb.onreadystatechange=function(){
+  if(this.readyState == 4 && this.status == 200){
+  	// console.log(JSON.parse(this.responseText));
+  	document.getElementById('ecky').innerHTML = this.responseText;
+       }
+	}
+}
+	</script>
+</head>
+<body>
+	<h2 align="center">Enter Your Login Details</h2>
+	<div class="container">
+	<div class="row">
+	<div class="col-md-2">
+		&nbsp;
+	</div>
+	<div class="col-md-8">
+	<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder=" Enter Your Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Full Name</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Full Name">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+     <div class="form-group col-md-4">
+      <label for="inputCity">State</label>
+      <input type="text" class="form-control" id="inputstate">
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="number" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary"  onclick='form_POSTdata()'>Sign in</button>
+</form>
+</div>
+<div class="col-md-2">
+		&nbsp;
+	</div>
+</div>
+</div>
+</body>
+</html>

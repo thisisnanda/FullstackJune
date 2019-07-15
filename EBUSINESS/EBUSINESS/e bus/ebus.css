@@ -1,0 +1,65 @@
+body
+	{
+	font-family: 'Indie Flower', cursive;
+	background: url(pic1.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+		
+	}
+	.center 
+	{
+		margin: auto;
+		max-width: 600px;
+		max-height: auto;
+		padding: 15px;
+		border: 1px solid black;
+		border-radius: 10px;
+		opacity: 0.5 !important;
+ 		filter: Alpha(opacity=50);
+	}
+	.margin-row
+	{
+		margin-top: 200px;
+	}
+	.signupInLogin
+	{
+  text-align: justify; 
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  color: rgb(204, 102, 0);
+}
+.wid
+{
+	width: 140px;
+	color:rgb(107,19,200);
+}
+.text1
+{
+	text-align: justify;
+	text-decoration: none;
+	 font-size:15px;
+	  font-weight: bold;
+}
+.text1:hover 
+{
+	text-align: justify;
+	text-decoration: none;
+	 rgb(0, 191, 255);
+	 font-size:20px;
+
+}
+.wid:hover
+{
+	width: 140px;
+	background-color : rgba(107,19,200,.5);
+	color:white;
+}
+input:invalid
+ {
+  border: 2px solid red; 
+  color: red;
+  text-decoration: line-through;
+ }

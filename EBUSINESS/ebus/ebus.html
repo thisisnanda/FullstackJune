@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta tags!!-here -->
+	<meta charset="UTF-8">
+  <meta name="description" content="E-Business is an online">
+  <meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript">
+  <meta name="author" content="Eckysaroyd Nyato">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- meta tags end here? -->
+
+  <!-- boostrap cdn start here -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <!-- boostrap cdn end here -->
+
+<!-- font style CDN -->
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+<!-- font style CDN  END-->
+  
+	<!-- css style -->
+<link rel="stylesheet" type="text/css" href="ebus.css">
+<!-- css-style End -->
+<!-- JavaScript Start Here -->
+<script src="ebusJS.js"></script>
+<!-- JavaScript End Here -->
+
+	<title>Login_E-Business</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row margin-row">
+			
+	   </div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+		<div class="col-md-6 center">
+			<form name="loginForm" onsubmit="return(formValidate())" method="POST">
+
+				<div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label signupInLogin">&nbsp;&nbsp;</label>
+    <div class="col-sm-10">
+    	&nbsp;&nbsp;
+    	&nbsp;&nbsp;
+ </div>
+  </div>
+  <center><h3>Login <span style="color:red">E</span>-<span style="color:blue">Business<span></h3></center>
+  <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label signupInLogin text1">Email</label>
+    <div class="col-sm-10">
+ <input type="email" class="form-control text2" id="inputEmail" placeholder="Email" name="Myemail" required><br>
+ <span id="email_id"></span>    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label signupInLogin text1" >Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control text2" name="password" id="inputPassword" placeholder="Password" minlength="5" maxlength="15" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" requiered>
+ <span id="password_id"></span>   
+    </div>
+   </div>
+
+     <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">&nbsp;&nbsp;&nbsp;</label>
+    <div class="col-sm-10">
+ <button type="submit" class="btn btn-outline-success wid text1" name="submit">Login</button>   <a href="ebus_signUp.html" class="signupInLogin text1">Signup</a>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" class="signupInLogin text1">ForgetPassword</a></div>
+  </div>
+    
+  
+</form>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container">
+		<div class="row margin-row">
+			
+	   </div>
+	</div>
+
+</body>
+</html>

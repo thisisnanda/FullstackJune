@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> javascript</title>
+	<script type="text/javascript">
+	//http://dummy.restapiexample.com/api/v1/employees
+	// XMLHttpRequest-we try to send request to http(means server-HyperTextTransferProtocol)
+	// there are some browser they dont support XMLHttpRequest-So for that reason we are going to use ActiveXObject
+	function changeData()
+	{
+	if(window.XMLHttpRequest)
+	{
+		ajaxCall = new window.XMLHttpRequest();
+	}
+	else
+	 {
+		ajaxCall = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	ajaxCall.open("GET","http://dummy.restapiexample.com/api/v1/employees",true);//we use it to open connection to url
+	ajaxCall.send(); //it send request
+
+//whenerver we then a request to url(if request change that one will call(onreadystatechange) 
+	ajaxCall.onreadystatechange=function(){
+  if(this.readyState == 4 && this.status == 200){
+  	// console.log(JSON.parse(this.responseText));
+  	document.getElementById('ecky').innerHTML = this.responseText;
+       }
+	}
+}
+// ajax request
+// 0 initialization state
+// 1 server connection established
+// 2 request received by server
+// 3 processing request
+// 4 request finished and response is ready
+	</script>
+</head>
+<body>
+<div id='ecky'>no info</div>
+	<button onclick='changeData()'>changeData</button>
+</body>
+</html>
